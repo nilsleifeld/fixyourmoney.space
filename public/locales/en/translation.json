@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "headline-first": "Is Bitcoin rising",
+    "headline-second": "or is the currency falling",
+    "dollar-in-bitcoin": "Dollar in Bitcoin",
+    "bitcoin-in-dollar": "Bitcoin in Dollar",
+    "text": "The price of Bitcoin is increasing nearly every year, but why? Is it possible that Bitcoin goes up forever? Why are stocks, houses and consumer goods prices rising? And what is money? What are important and necessary characteristics of money? Why are prices increasing although we are working, innovating and increasing the productivity every day? Why don’t we learn about money and monetary history in today’s education system? Why are the measurements for length, time and weight fixed to natural constants, but the measurement for our prices isn't? Just few understand this. Be one of them and discover the world out of a new perspective. Fix your money, fix your world!"
+  },
+  "assets": {
+    "headline": "Is everything going to zero measured in Bitcoin?",
+    "subheading": "Stocks & Assets",
+    "text": "In a world where central banks manipulate interest rates and expand the money supply, it makes sense to change the unit of account. Just like currencies, we can also convert the prices of other assets using the rule of three. We find out that stocks, real estate, or indices measured in Bitcoin or gold also tend to fall over the years. This is an important insight because once we realize that we can choose our unit of account, we obviously choose a unit of account in which prices fall through productivity growth and innovations. While doing this our savings become worth more over time. Saving makes sense again as we become aware of the opportunity costs. Chance the unit of account in the chart to see the stocks and assets from a different perspective.",
+    "points": {
+      "1": "Each person can choose his or her own money and unit of account with the rule of three",
+      "2": "It makes sense to choose a money in which prices are stable or even decrease",
+      "3": "Saving makes sense again, because the purchasing power of the savings increases"
+    }
+  },
+  "currencies": {
+    "headline": "Are today's currencies stable?",
+    "subheading": "Currencies",
+    "text": "You might think, that Bitcoin and Gold prices are rising, or are the central bank currencies falling? Prices are just exchange ratios and obviously this ratio changes over the years. We need more and more dollar, euro or franc, to buy a fraction of a Bitcoin or an ounce of gold. Otherwise, we get more and more dollar, euro or franc for our Bitcoin or gold. This happens because central banks increase the supply of their currencies every year and in every crisis. Also more and more people understand that today’s currencies do not maintain their value and thus switch to scarce things like Bitcoin or gold. Change the unit of account in the chart to see the currencies from a different perspective.",
+    "points": {
+      "1": "A price is just an exchange ratio measured in the past",
+      "2": "All central bank currencies are falling measured in scarce assets over time"
+    }
+  },
+  "competition": {
+    "headline": "What is money for you?",
+    "subheading": "Currency competition",
+    "text": "We have found out that today's currencies are not a good money because the money supply is being expanded and prices are rising as a result. But what new money should we synchronize with? Who decides that and what criteria do we use to choose a good unit of account? So far, we have only looked at prices from the past, but there are also characteristics that good money must have through the logic of human action.",
+    "functions-headline": "What functions must money fulfill?",
+    "functions-text": "We use money to make it easier for us to live together through exchange transactions. This results in three main functions of money. We use money as a medium of exchange, as a store of value and as a unit of account. From these, we can derive characteristics that good money must have to fulfill these functions.",
+    "functions": {
+      "1": {
+        "headline": "Scarcity",
+        "text": "In order for money to be of equal value between the time we receive it and the time we spend it, the money supply must be limited. An expansion of the money supply leads to redistribution effects and injustice."
+      },
+      "2": {
+        "headline": "Divisibility",
+        "text": "In order for our exchanges to be as efficient as possible, money should be easily divisible."
+      },
+      "3": {
+        "headline": "Transportability",
+        "text": "For exchanges to take place at all, money must be transferable or transportable from one person to another over space."
+      },
+      "4": {
+        "headline": "Durability",
+        "text": "For money to maintain it's value between exchanges, it must be durable and not rot, rust or weather."
+      },
+      "5": {
+        "headline": "Homogeneity",
+        "text": "All monetary units should be as equal in quality as possible so that exchanges can be conducted with confidence."
+      },
+      "6": {
+        "headline": "Verifiability",
+        "text": "The ability to verify authenticity is important so that an exchange partner cannot be defrauded with counterfeit money."
+      },
+      "7": {
+        "headline": "Censorship Resistance",
+        "text": "Censorship resistance guarantees that all rules are set and followed equally, and cannot be changed for personal gains."
+      }
+    },
+    "confrontations": {
+      "1": {
+        "first": "Physical object",
+        "second": "Data registry",
+        "statement": "On the one hand, money can be a physical object that is unique in itself, such as a gold coin. But money can also be a digital entry in a register, which has the property of being stored centrally. While a data entry can be negative, a physical object is either existent or non existent."
+      },
+      "2": {
+        "first": "Hardware",
+        "second": "Software",
+        "statement": "Hardware has the charateristics that it can't be easily copied or multiplied without costs. Software on the other side consists out of information and can be copied with minimal costs. Information can be send over the internet with very low costs, while it's expensive to store or to ship hardware around the world."
+      },
+      "3": {
+        "first": "Token",
+        "second": "Ledger",
+        "statement": "Bitcoin combines the characteristics of physical objects, data registry, hardware and software. The transaction history is stored in a decentralized ledger and has timestamps to define the latest version. Property is defined by unique digital keys/tokens which are held as a private secret. The software is synchronizing and the hardware can be replaced as part of the redundant, decentralized network."
+      }
+    }
+  },
+  "candidates": {
+    "chart-headline": "Currency Competition",
+    "headline": "Candidates for good money in comparison",
+    "text": "We see that gold measured in Bitcoin has steadily lost value through the last years. Likewise, we can say that Bitcoin has gained significantly in value over gold through the last few years. Economic calculations are just reasonable and meaningful if we as individuals use good money as our unit of account. Only by doing this, we can allocate resources efficiently in the economy and identify incentives to produce for the biggest needs of the people and increase everyone's prosperity. This is currently not possible because economic calculations are distorted due to our bad money. Money is not created by a central authority, but by the actions of the people and their daily decisions. Any action starts with the single individual who thinks about money. It is up to each individual themselves from which perspective it views prices and therefore the world. So, what is your money? Choose a good money not only for your life, but for our life. Use the rule of three to your advantage and at the same time fix the wrong incentives in our society. Better money, for a better world! Fix your money, fix your world!",
+    "points": {
+      "1": "Search for a good money",
+      "2": "Calculate prices in good money",
+      "3": "Save good money",
+      "4": "Perform profitability and economic calculations in good money",
+      "5": "Study the logic of human action!"
+    }
+  },
+  "impact": {
+    "headline": "What is the impact of sound money",
+    "subheading": "Impacts",
+    "text": "Each person can choose his or her own unit of account. This gives us the opportunity to look at prices from both an inflationary and a deflationary perspective. Just as in the natural sciences we have linked the units of meter, kilogram or second to a natural constant, we can also use a constant to measure prices - a constant money supply. This has implications for the individual, for businesses, and for society as a whole, which are outlined briefly below.",
+    "cards": {
+      "learn-more": "Learn more",
+      "individual": {
+        "headline": "Individual",
+        "text": "As prices tend to fall in the long run due to innovations and productivity increases, saving money becomes worthwhile again. This enables the individual to plan and provide for the future more effectively, as savings do not lose purchasing power and it is therefore easier to save for long-term goals. This makes the future more important to the individual and creates incentives for long-term thinking and action. Short-term oriented consumption tends to be avoided because the opportunity costs are more obvious. The realization that the unit of account is not set by a central authority leads the individual to realize that he or she is not dependent on the low interest rate, monetary expansion, and central bank policy, but is responsible for the unit of account and its perspective on the world. The individual gets orientation and security through the appropriate choice of the unit of account. As a result, wealth is created through the savings process and individuals can escape poverty and the hamster wheel.",
+        "points": {
+          "1": "Prices tend to fall in the long run due to innovations and productivity increases",
+          "2": "Saving money becomes worthwhile again",
+          "3": "Long-term orientation grows"
+        }
+      },
+      "companies": {
+        "headline": "Companies",
+        "text": "A deflationary monetary system has the impact on businesses that profits do not have to be reinvested at risk as well as reserves do not continually lose purchasing power. As a result, \"good\" money as a secure treasury asset increases companies' ability to plan and improve their economic freedom. Moreover, profitability calculations based on \"good\" money reveal resource misallocations and, with the help of the market interest rate, opportunity costs become clear. Resources will flow into the economic sectors with the greatest customer demand, which increases productivity and thus the prosperity of all. For the companies the responsible use of scarce resources is rewarded and is the only way to survive in the market, since there are no bailouts or credit money creation. Since people tend to spend money less quickly because of the benefits of saving, a company must pay increased attention to the quality of products and services so that people will make a trade.",
+        "points": {
+          "1": "Sound money as reserves",
+          "2": "Prices and profitability calculations are linked to a constant",
+          "3": "More incentives for companies to be productive and deliver quality"
+        }
+      },
+      "society": {
+        "headline": "Society",
+        "text": "If the individual, capable of learning, realizes that there are advantages to view the world from a deflationary perspective, a society made up of people capable of learning synchronizes to a money that has a constant money supply. This automatically leads to a separation of money and the state (or another central authority). This is also referred to as a focal point/Schelling point. What is meant here is an equilibrium that occurs because it represents the optimum for each individual. A society in which saving is profitable becomes prosperous in the long run because more is produced than is immediately consumed. A unit of account that cannot be manipulated leads to economic calculations that enable the accumulation of capital and thus the accumulation of wealth for the individual and, in sum, for society as a whole. Decentralized structures such as families are strengthened because they can build their own wealth and independence and are no longer dependent on the promises of central institutions. Society as a whole becomes less fragile because not everyone is dependent on the same central authority. Bitcoin enables unrestricted property rights due to cryptography. This prevents redistribution by a central authority for the benefit of a few. Furthermore, Bitcoin enables the financial inclusion of all people because Bitcoin is an open monetary system. As a result, all people can participate in the society based on the division of labor and benefit from cooperation, which in turn benefits everyone, since everyone has a specialization. In a society in which companies do not receive monetary gifts from politicians, they must handle their resources as sustainably as possible and for the benefit of customers if they want to survive on the market. The resulting competition is a regulating force that punishes waste of resources, rewards long-term planning, and incentivizes quality and productivity. This creates a sustainable and advanced society that increases the prosperity of all.",
+        "points": {
+          "1": "A single unit of account as the global standard for economic calculations",
+          "2": "Incentives to save and build capital leads to prosperity",
+          "3": "Financial inclusion for all people",
+          "4": "Competition as a major regulating force",
+          "5": "Sustainability and resource conservation through less consumption and property rights"
+        }
+      }
+    }
+  },
+  "vision": {
+    "headline": "Our Vision",
+    "text": "The world is out of control and this is due to the inflationary monetary system that affects people's incentives. The vision of FixYourMoney is to accelerate the transition from an inflationary to a deflationary society. We strive for a society with a monetary system that serves everyone equally and sets incentives in such a way that prices tend to fall. This will increase the standard of living for everyone. Our goal is that every price, every economic calculation, every balance sheet, every profit & loss statement is calculated in good money. The rule of three brings every single person back to good money, fixes the misaligned incentives and opens a new perspective on the world and our society. \"If people understood the rule of three, we would have a revolution before tomorrow morning.\" #fixyourmoney #fixyourworld"
+  },
+  "choose-calculation-unit": "Choose your unit of account",
+  "meta": {
+    "description": "Money has to be scarce, but central bank currencies are inflationary and therefore we seek for a new money. Fix your money, fix your world!"
+  }
+}

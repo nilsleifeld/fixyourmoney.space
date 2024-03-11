@@ -1,0 +1,13 @@
+---
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+---
+
+<p
+  class="flex md:justify-center items-center w-full text-base font-bold border-black border-4 border-b-8 rounded-xl p-2 my-3"
+>
+  {text}
+</p>

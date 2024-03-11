@@ -1,0 +1,27 @@
+---
+import Headline from '../Headline.astro';
+import TextBlock from '../TextBlock.astro';
+import List from '../List.astro';
+import { t } from 'i18next';
+import CurrencyChart from './CurrencyChart.svelte';
+---
+
+<div class="mx-4 lg:mx-0">
+  <Headline sub={t('currencies.subheading')}>
+    {t('currencies.headline')}
+  </Headline>
+</div>
+
+<div class="mb-10 sm:mb-14 mx-0 ms:mx-4 lg:mx-0">
+  <CurrencyChart client:visible text={t('choose-calculation-unit')} />
+</div>
+
+<div class="mb-10 sm:mb-14 mx-4 lg:mx-0">
+  <TextBlock>
+    {t('currencies.text')}
+  </TextBlock>
+</div>
+
+<div class="mx-4 lg:mx-0">
+  <List items={[t('currencies.points.1'), t('currencies.points.2')]} />
+</div>

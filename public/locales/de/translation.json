@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "headline-first": "Steigt Bitcoin",
+    "headline-second": "oder sinkt die Währung",
+    "dollar-in-bitcoin": "Dollar in Bitcoin",
+    "bitcoin-in-dollar": "Bitcoin in Dollar",
+    "text": "Der Preis von Bitcoin steigt fast jedes Jahr, aber warum? Ist es möglich, dass immer weiter steigt? Warum steigen die Preise für Aktien, Häuser und Konsumgüter? Und was ist Geld? Was sind wichtige und notwendige Eigenschaften von Geld? Warum steigen die Preise, obwohl wir jeden Tag arbeiten, Innovationen voranbringen und die Produktivität steigern? Warum lernen wir im heutigen Bildungssystem nichts über Geld und Geldgeschichte? Warum sind die Messgrößen für Länge, Zeit und Gewicht fix an Naturkonstanten definiert, doch die Messgröße für unsere Preise nicht? Nur wenige hinterfragen und verstehen das. Sei einer von uns und betrachte die Welt aus einer anderen Perspektive."
+  },
+  "assets": {
+    "headline": "Geht alles in Bitcoin gegen null?",
+    "subheading": "Aktien & Vermögenswerte",
+    "text": "In einer Welt in der die Zentralbanken die Zinsen auf null manipulieren und die Geldmenge ausweiten, macht es Sinn seine Recheneinheit zu ändern. Ebenso wie die Währungen, so können wir auch die Preise für andere Vermögenswerte über einen Dreisatz umrechnen. Wir stellen fest, dass auch Aktien, Immobilien oder Indices gemessen in Bitcoin oder Gold tendenziell über die Jahre fallen. Dies ist eine wichtige Erkenntnis, denn sobald wir erkennen, dass wir unsere Recheneinheit selbst wählen können, so entscheiden wir uns natürlich für eine Recheneinheit, in der die Preise aufgrund von Produktivitätssteigerungen und technischem Fortschritt tendenziell sinken. Unsere Ersparnisse werden durch die Wahl eines guten Geldes über die Zeit mehr wert werden und Sparen macht wieder Sinn, da uns die Opportunitätskosten bewusst werden. Ändere die Recheneinheit im oberen Diagramm, um die Aktien und Vermögenswerte aus einer anderen Perspektive zu sehen.",
+    "points": {
+      "1": "Jeder Mensch kann über einen Dreisatz seine Geld- und Recheneinheit selbst wählen",
+      "2": "Es macht Sinn ein Geld zu wählen, in dem die Preise stabil sind oder sogar sinken",
+      "3": "Sparen macht wieder Sinn, da die Ersparnisse im Wert steigen"
+    }
+  },
+  "currencies": {
+    "headline": "Sind heutige Währungen stabil?",
+    "subheading": "Währungen",
+    "text": "Man könnte meinen, dass die Bitcoin- und Goldpreise steigen, oder fallen etwa die Zentralbankwährungen? Preise sind nur ein Austauschverhältnis und offensichtlich hat sich dieses Verhältnis im Laufe der Jahre verändert. Wir brauchen immer mehr Dollar, Euro oder Franken, um einen Bruchteil eines Bitcoins oder einer Unze Gold zu kaufen. Andernfalls erhalten wir immer mehr Dollar, Euro oder Franken für unsere Bitcoins oder unser Gold. Dies geschieht, weil die Zentralbanken das Angebot ihrer Währungen jedes Jahr und in jeder Krise erhöhen, und weil immer mehr Menschen verstehen, dass die staatlichen Währungen ihren Wert nicht erhalten und somit in knappe Dinge wie Bitcoin oder Gold wechseln. Ändere die Recheneinheit im oberen Diagramm, um die Währungen aus einer anderen Perspektive zu sehen. Ändere die Recheneinheit im oberen Diagramm, um die Aktien und Vermögenswerte aus einer anderen Perspektive zu sehen.",
+    "points": {
+      "1": "Ein Preis ist nur ein in der Vergangenheit gemessenes Austauschverhältnis",
+      "2": "Alle Zentralbankwährungen fallen gemessen in knappen Vermögenswerten"
+    }
+  },
+  "competition": {
+    "headline": "Was ist Geld für dich?",
+    "subheading": "Währungswettbewerb",
+    "text": "Wir haben festgestellt, dass die staatlichen Währungen kein gutes Geld sind, da die Geldmenge ausgeweitet wird und die Preise dadurch steigen. Doch auf welches neue Geld sollten wir uns synchronisieren? Wer entscheidet das und nach welchen Kriterien wählen wir eine gute Recheneinheit aus? Bisher haben wir uns lediglich Preise aus der Vergangenheit angeschaut, doch es gibt auch Eigenschaften, die gutes Geld aus handlungslogischen Gründen haben muss.",
+    "functions-headline": "Welche Funktionen muss Geld erfüllen?",
+    "functions-text": "Wir benutzen Geld, um uns das Zusammenleben durch Tauschvorgänge zu vereinfachen. Daraus ergeben sich drei Hauptfunktionen von Geld. Dies ist zum einen die Funktion eines Tauschmittels, die Funktion der Wertspeicherung und die Funktion der Recheneinheit. Daraus leiten sich Eigenschaften ab, die gutes Geld haben muss.",
+    "functions": {
+      "1": {
+        "headline": "Knappheit",
+        "text": "Damit das Geld noch gleich viel Wert ist zwischen dem Zeitpunkt an dem wir es bekommen bis wir es ausgeben, muss die Geldmenge begrenzt sein. Eine Ausweitung der Geldmenge führt zu Umverteilungseffekten und Ungerechtigkeiten."
+      },
+      "2": {
+        "headline": "Teilbarkeit",
+        "text": "Damit wir unsere Tauschvorgänge möglichst effizient durchführen können, sollte das Geld einfach teilbar sein."
+      },
+      "3": {
+        "headline": "Transportierbarkeit",
+        "text": "Damit Tauschvorgänge überhaupt stattfinden können, muss das Geld von einer zur anderen Person übertragbar bzw. transportierbar sein."
+      },
+      "4": {
+        "headline": "Haltbarkeit",
+        "text": "Damit das Geld zwischen den Tauschvorgängen seinen Wert erhält, muss es haltbar sein und darf nicht faulen, rosten oder verwittern."
+      },
+      "5": {
+        "headline": "Homogenität",
+        "text": "Alle Geldeinheiten sollten in der Qualität möglichst gleich sein, damit die Tauschvorgänge vertrauensvoll durchgeführt werden können."
+      },
+      "6": {
+        "headline": "Verifizierbarkeit",
+        "text": "Die Möglichkeit zur Prüfung auf Echtheit ist wichtig, damit ein Tauschpartner nicht mit Falschgeld betrogen werden kann."
+      },
+      "7": {
+        "headline": "Unzensierbarkeit",
+        "text": "Unzensierbarkeit garantiert, dass alle Regeln festgelegt und befolgt werden und nicht einseitig zum persönlichen Vorteil geändert werden können."
+      }
+    },
+    "confrontations": {
+      "1": {
+        "first": "Gegenstand",
+        "second": "Datenregister",
+        "statement": "Einerseits kann Geld ein physischer Gegenstand sein, der in sich einzigartig ist, wie z. B. eine Goldmünze. Geld kann aber auch ein digitaler Eintrag in einem Kassenbuch sein, der die Eigenschaft hat, zentral gespeichert zu werden. Während ein Dateneintrag negativ sein kann, ist ein physischer Gegenstand entweder existent oder nicht existent."
+      },
+      "2": {
+        "first": "Hardware",
+        "second": "Software",
+        "statement": "Hardware hat die Eigenschaft, dass sie nicht einfach kopiert oder ohne Kosten vervielfältigt werden kann. Software hingegen besteht aus Informationen und kann mit minimalen Kosten kopiert werden. Informationen können mit sehr geringen Kosten über das Internet verschickt werden. Es ist jedoch teuer, Hardware zu lagern oder um die Welt zu schicken."
+      },
+      "3": {
+        "first": "Token",
+        "second": "Ledger",
+        "statement": "Bitcoin kombiniert die Eigenschaften von physischen Objekten, Datenregistern, Hardware und Software. Die Transaktionshistorie wird in einem dezentralen Ledger gespeichert und verfügt über Zeitstempel, um die neueste Version zu definieren. Eigentum wird durch eindeutige digitale Schlüssel/Token definiert, die als persönliches Geheimnis aufbewahrt werden. Die Software ist synchronisiert und die Hardware kann als Teil des redundanten, dezentralen Netzwerks ersetzt werden."
+      }
+    }
+  },
+  "candidates": {
+    "chart-headline": "Währungswettbewerb",
+    "headline": "Kandidaten für gutes Geld im Vergleich",
+    "text": "Wir sehen, dass Gold gemessen in Bitcoin in den letzten Jahren stetig an Wert verloren hat. Ebenso können wir sagen, dass Bitcoin in den letzten Jahren gegenüber Gold deutlich an Wert gewonnen hat. Erst dadurch, dass wir Individuen gutes Geld verwenden wird es möglich Wirtschaftlichkeitsrechnungen einfach und sinnvoll durchzuführen. Erst dadurch können wir die Ressourcen effizient in der Wirtschaft zuteilen und Anreize zur Produktion erkennen, damit für alle am meisten produziert wird und unser Wohlstand steigt. Dies ist aktuell nicht möglich, da die Wirtschaftlichkeitsrechnungen aufgrund unseres schlechten Geldes verzerrt sind. Geld entsteht nicht durch eine zentrale Instanz, sondern durch das Handeln der Menschen und deren täglichen Entscheidungen. Das Handeln beginnt beim einzelnen Individuum, welches sich Gedanken über Geld macht. Es liegt an jedem Individuum selbst aus welcher Perspektive es die Preise und somit die Welt betrachtet. Was ist also Geld für dich? Wähle nicht nur für dein Leben, sondern für unser Zusammenleben gutes Geld. Verwende den Dreisatz zu deinem Vorteil und bringe dadurch gleichzeitig die Fehlanreize in unserer Gesellschaft wieder in Ordnung. Besseres Geld, für eine bessere Welt! Fix your money, fix your world!",
+    "points": {
+      "1": "Kalkuliere die Preise in gutem Geld",
+      "2": "Mach dich auf sie Suche nach gutem Geld",
+      "3": "Spare gutes Geld",
+      "4": "Führe Wirtschaftlichkeitsrechnungen in gutem Geld durch",
+      "5": "Informiere dich über die Logik des Handelns"
+    }
+  },
+  "impact": {
+    "headline": "Welche Auswirkungen hat solides Geld?",
+    "subheading": "Auswirkungen",
+    "text": "Jeder Mensch kann seine Recheneinheit selbst wählen. Dies gibt uns die Möglichkeit die Preise sowohl aus einer inflationären, als auch aus einer deflationären Perspektive zu betrachten. Ebenso wie wir in den Naturwissenschaften die Einheiten Meter, Kilogramm oder Sekunde an eine Naturkonstante geknüpft haben, so können wir uns zur Messung der Preise ebenfalls an einer Konstante orientieren – einer konstanten Geldmenge.",
+    "cards": {
+      "learn-more": "Mehr erfahren",
+      "individual": {
+        "headline": "Individuum",
+        "text": "Da die Preise langfristig aufgrund von Innovationen und Produktivitätssteigerungen tendenziell sinken, lohnt sich das Sparen von Geld wieder. Dies ermöglicht dem Individuum eine bessere Planung und Vorsorge, da die Ersparnisse nicht an Kaufkraft verlieren und man somit besser auf langfristige Ziele ansparen kann. Dadurch wird dem Individuum die Zukunft wichtiger und es entstehen Anreize für ein langfristiges Denken und Handeln. Kurzfristig orientierter Ressourcenkonsum wird tendenziell vermieden, da die Opportunitätskosten offensichtlicher sind. Die Erkenntnis, dass die Recheneinheit nicht von einer zentralen Instanz festgelegt wird, führt dazu, dass das Individuum feststellt, dass es nicht von dem Niedrigzins, der Geldmengenausweitung und der Zentralbankpolitik abhängig ist, sondern selbst für die Recheneinheit und die damit einhergehende Perspektive auf die Welt verantwortlich ist. Das Individuum bekommt durch die geeignete Wahl der Recheneinheit Orientierung und Sicherheit. In Folge dessen entsteht durch den Sparprozess Wohlstand und der Mensch kann der Armut und dem Hamsterrad entkommen.",
+        "points": {
+          "1": "Preise sinken tendenziell mit der Zeit aufgrund von Innovationen und Produktivitätssteigerungen",
+          "2": "Sparen lohnt sich wieder",
+          "3": "Langfristige Orientierung wächst"
+        }
+      },
+      "companies": {
+        "headline": "Unternehmen",
+        "text": "Ein deflationäres Geldsystem hat auf die Unternehmen den Einfluss, dass die Gewinne nicht risikoreich reinvestiert werden müssen sowie dass die Rücklagen nicht ständig an Kaufkraft verlieren. Dadurch erhöht „gutes“ Geld als sicheres Treasury-Asset die Planbarkeit und den Handlungsspielraum der Unternehmen. Die Wirtschaftlichkeitsrechnungen auf Basis von „gutem“ Geld lassen zudem Ressourcenfehlallokationen auffliegen und mit Hilfe des Marktzinses werden Opportunitätskosten deutlich. Die Ressourcen fließen somit in die Wirtschaftsbereiche mit der größten Nachfrage der Kunden was die Produktivität und somit den Wohlstand aller wachsen lässt. Ein verantwortungsvoller Umgang mit knappen Ressourcen wird belohnt und ist die einzige Möglichkeit auf dem Markt zu bestehen, da es keine Bailouts oder Kreditgeldschöpfungen gibt. Da die Menschen das Geld aufgrund der Vorteile, dass es sich lohnt zu sparen, tendenziell weniger schnell ausgeben, muss ein Unternehmen vermehrt auf die Qualität der Produkte und Dienstleistungen achten, damit die Menschen einen Tausch eingehen.",
+        "points": {
+          "1": "„Gutes“ Geld als Rücklagen",
+          "2": "Preise und Wirtschaftlichkeitsrechnungen sind an eine Konstante geknüpft",
+          "3": "Mehr Anreize für Produktivität und Qualität"
+        }
+      },
+      "society": {
+        "headline": "Gesellschaft",
+        "text": "Wenn das einzelne, lernfähige Individuum erkennt, dass es Vorteile hat, wenn es die Welt aus einer deflationären Perspektive betrachtet, so synchronisiert sich eine fortschrittliche Gesellschaft, die aus lernfähigen Menschen besteht, auf ein Geld, das eine konstante Geldmenge hat. Dies führt automatisch zu einer Trennung von Geld und Staat (bzw. einer zentralen Autorität). Man spricht hier auch von einem fokalen Punkt/Schellingpunkt. Gemeint ist dabei ein Gleichgewicht, das sich einstellt, weil es das Optimum für jedes einzelne Individuum darstellt. Eine Gesellschaft, in der sich Sparen lohnt, wird langfristig wohlhabend, da mehr produziert als sofort konsumiert wird. Eine Recheneinheit, die nicht manipuliert werden kann, führt zu Wirtschaftlichkeitsrechnungen, die den Kapitalaufbau und somit den Wohlstandsaufbau des Einzelnen und in Summe der gesamten Gesellschaft, ermöglicht und nicht verzerrt. Dezentrale Strukturen wie z.B. Familien werden gestärkt, weil sie sich selbst Wohlstand und Unabhängigkeit aufbauen können und nicht mehr von den Versprechen zentraler Geldgeber abhängig sind. Die Gesellschaft wird dadurch als ganzes weniger fragil, da nicht alle von derselben zentralen Instanz abhängig sind. Bitcoin ermöglicht aufgrund der Kryptographie uneingeschränkte Eigentumsrechte, dies verhindert eine willkürliche Umverteilung einer zentralen Instanz zum Wohle weniger. Des Weiteren ermöglicht Bitcoin die finanzielle Inklusion aller Menschen, da Bitcoin ein offenes System ist. Dadurch können alle Menschen an der arbeitsteiligen Gesellschaft teilnehmen und von Kooperationen profitieren, was wiederum allen zugutekommt, da jeder Mensch eine Spezialisierung hat. In einer Gesellschaft in der die Unternehmen keine Geldgeschenke der Politik bekommen, müssen sie mit ihren Ressourcen möglichst nachhaltig und zum Wohle der Kunden umgehen, wenn sie auf dem Markt bestehen wollen. Der daraus entstehende Wettbewerb ist eine regulierende Kraft, die Ressourcenverschwendung bestraft, langfristige Planung belohnt und Anreize zur Qualität und Produktivität setzt. Dadurch entsteht eine nachhaltige und fortschrittliche Gesellschaft, die den Wohlstand aller vergrößert.",
+        "points": {
+          "1": "Eine einheitliche Recheneinheit als weltweiter Standard der Wirtschaftlichkeitsrechnungen",
+          "2": "Anreize zum Sparen und Kapitalaufbau führt zu Wohlstand",
+          "3": "Finanzielle Inklusion für alle Menschen",
+          "4": "Wettbewerb als große regulierende Kraft",
+          "5": "Nachhaltigkeit und Ressourcenschonung durch weniger Konsum und Eigentumsrechte"
+        }
+      }
+    }
+  },
+  "vision": {
+    "headline": "Unsere Vision",
+    "text": "Wir freuen uns, wenn du diese Seite deiner Familie, deinen Freunden und Bekannten teilst! Teile uns Wünsche und Verbesserungen gerne mit. <br/> Vielen Dank! Nils und Leo"
+  },
+  "choose-calculation-unit": "Wähle deine Recheneinheit",
+  "meta": {
+    "description": "Geld muss knapp sein, aber Zentralbankwährungen sind inflationär und deshalb suchen wir nach einem neuen Geld. Repariert euer Geld, repariert eure Welt!"
+  }
+}

@@ -1,0 +1,85 @@
+---
+import Banner from '../components/Banner.svelte';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import i18next, { t } from 'i18next';
+
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang={i18next.language}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <link rel="stylesheet" href="/lib/bootstrap-icons/1.10.5/bootstrap-icons.min.css" />
+    <meta name="description" content={t('meta.description')} />
+
+    <meta itemprop="name" content="FixYourMoney" />
+    <meta itemprop="description" content={t('meta.description')} />
+    <meta itemprop="image" content="" />
+
+    <meta property="og:url" content="fixyourmoney.space" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:site_name" content="FixYourMoney" />
+    <meta property="og:description" content={t('meta.description')} />
+
+    <meta name="twitter:site" content="FixYourMoney" />
+    <meta name="twitter:creator" content="@lemalive" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:url" content="fixyourmoney.space" />
+    <meta name="twitter:description" content={t('meta.description')} />
+
+    <title>{title}</title>
+  </head>
+  <body>
+    <Banner client:visible />
+    <Header />
+    <slot />
+    <Footer />
+  </body>
+</html>
+
+<style is:global>
+  /* baloo-2-regular - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/font/baloo-2-v16-latin-regular.woff2') format('woff2');
+  }
+  /* baloo-2-600 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/font/baloo-2-v16-latin-600.woff2') format('woff2');
+  }
+
+  /* maven-pro-regular - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/font/maven-pro-v32-latin-regular.woff2') format('woff2');
+  }
+  /* maven-pro-700 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/font/maven-pro-v32-latin-700.woff2') format('woff2');
+  }
+</style>

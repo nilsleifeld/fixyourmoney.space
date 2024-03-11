@@ -1,0 +1,21 @@
+---
+import AccordionItem from './AccordionItem.svelte';
+
+interface Props {
+  first: string;
+  second: string;
+}
+
+const { first, second } = Astro.props;
+---
+
+<AccordionItem client:visible>
+  <h5 slot="header" class="flex justify-between items-center font-bold text-base sm:text-2xl md:text-3xl w-full">
+    <span>{first}</span>
+    <span>VS</span>
+    <span>{second}</span>
+  </h5>
+  <div class="text-justify" slot="content">
+    <slot />
+  </div>
+</AccordionItem>

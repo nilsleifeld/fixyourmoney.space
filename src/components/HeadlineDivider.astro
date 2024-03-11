@@ -1,0 +1,13 @@
+---
+interface Props {
+  headline: string;
+}
+
+const { headline } = Astro.props;
+---
+
+<div class="flex items-center justify-center">
+  <div class="bg-black h-1 w-full"></div>
+  <p class="text-center mx-4 font-bold whitespace-nowrap md:text-2xl">{headline}</p>
+  <div class="bg-black h-1 w-full"></div>
+</div>

@@ -1,0 +1,27 @@
+---
+import Headline from '../Headline.astro';
+import TextBlock from '../TextBlock.astro';
+import StockChart from '../StockChart.svelte';
+import List from '../List.astro';
+
+import { t } from 'i18next';
+import type { text } from 'svelte/internal';
+---
+
+<div class="mx-4 lg:mx-0">
+  <Headline sub={t('assets.subheading')}>{t('assets.headline')}</Headline>
+</div>
+
+<div class="mb-10 sm:mb-14 mx-0 ms:mx-4 lg:mx-0">
+  <StockChart client:visible text={t('choose-calculation-unit')} />
+</div>
+
+<div class="mb-10 sm:mb-14 mx-4 lg:mx-0">
+  <TextBlock>
+    {t('assets.text')}
+  </TextBlock>
+</div>
+
+<div class="mx-4 lg:mx-0">
+  <List items={[t('assets.points.1'), t('assets.points.2'), t('assets.points.3')]} />
+</div>

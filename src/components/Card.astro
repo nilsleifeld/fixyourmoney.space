@@ -1,0 +1,17 @@
+---
+interface Props {
+  headline: string;
+  icon: string;
+  text: string;
+}
+
+const { headline, icon, text } = Astro.props;
+---
+
+<div class="px-5 py-4 border-4 border-black border-b-8 rounded-xl">
+  <div class="flex justify-between items-center mb-3">
+    <h4 class="text-lg font-bold">{headline}</h4>
+    <i class="text-4xl bi {icon}" class:list={[icon]}></i>
+  </div>
+  <p class="text-justify">{text}</p>
+</div>

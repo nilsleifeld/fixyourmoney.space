@@ -1,0 +1,18 @@
+---
+import { LanguageSelector } from 'astro-i18next/components';
+---
+
+<header class="w-full border-b-4 border-black fixed top-0 left-0 bg-white z-20">
+  <div class="flex justify-between mx-5 md:mx-10">
+    <h1 class="m-0 text-xl py-3 font-['Baloo_2'] font-semibold">FixYourMoney</h1>
+    <div class="flex justify-between items-center">
+      <LanguageSelector showFlag={false} class="my-select-class" />
+    </div>
+  </div>
+</header>
+
+<style lang="scss">
+  .link-active {
+    @apply bg-black text-white;
+  }
+</style>

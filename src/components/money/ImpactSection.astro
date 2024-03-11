@@ -1,0 +1,70 @@
+---
+import Headline from '../Headline.astro';
+import PointsCard from '../PointsCard.svelte';
+import TextBlock from '../TextBlock.astro';
+
+import { t } from 'i18next';
+---
+
+<div class="mx-4 lg:mx-0">
+  <Headline sub={t('impact.subheading')}>
+    {t('impact.headline')}
+  </Headline>
+</div>
+
+<div class="mb-14 mx-4 lg:mx-0">
+  <TextBlock>
+    {t('impact.text')}
+  </TextBlock>
+</div>
+
+<div class="flex flex-col md:flex-row mx-3 md:mx-0">
+  <div class="md:mr-2 mb-4 md:mb-0">
+    <PointsCard
+      client:visible
+      openModalText={t('impact.cards.learn-more')}
+      headline={t('impact.cards.individual.headline')}
+      points={[
+        t('impact.cards.individual.points.1'),
+        t('impact.cards.individual.points.2'),
+        t('impact.cards.individual.points.3'),
+      ]}
+      icon={'bi-person-fill'}
+    >
+      <p>{t('impact.cards.individual.text')}</p>
+    </PointsCard>
+    <div class="mt-4">
+      <PointsCard
+        client:visible
+        openModalText={t('impact.cards.learn-more')}
+        headline={t('impact.cards.companies.headline')}
+        points={[
+          t('impact.cards.companies.points.1'),
+          t('impact.cards.companies.points.2'),
+          t('impact.cards.companies.points.3'),
+        ]}
+        icon={'bi-building'}
+      >
+        <p>{t('impact.cards.companies.text')}</p>
+      </PointsCard>
+    </div>
+  </div>
+
+  <div class="md:ml-2 md:flex justify-center items-center md:w-1/2">
+    <PointsCard
+      client:visible
+      openModalText={t('impact.cards.learn-more')}
+      headline={t('impact.cards.society.headline')}
+      points={[
+        t('impact.cards.society.points.1'),
+        t('impact.cards.society.points.2'),
+        t('impact.cards.society.points.3'),
+        t('impact.cards.society.points.4'),
+        t('impact.cards.society.points.5'),
+      ]}
+      icon={'bi-people-fill'}
+    >
+      <p>{t('impact.cards.society.text')}</p>
+    </PointsCard>
+  </div>
+</div>

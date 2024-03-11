@@ -1,0 +1,98 @@
+---
+import Headline from '../Headline.astro';
+import TextBlock from '../TextBlock.astro';
+import Confrontation from '../Confrontation.astro';
+
+import { t } from 'i18next';
+import Card from '../Card.astro';
+---
+
+<div class="mx-4 lg:mx-0">
+  <Headline sub={t('competition.subheading')}>
+    {t('competition.headline')}
+  </Headline>
+</div>
+
+<div class="mb-10 sm:mb-14 mx-4 lg:mx-0">
+  <TextBlock>
+    {t('competition.text')}
+  </TextBlock>
+
+  <h2 class="font-bold my-7 text-xl">
+    {t('competition.functions-headline')}
+  </h2>
+
+  <TextBlock>
+    {t('competition.functions-text')}
+  </TextBlock>
+</div>
+
+<div class="grid mx-3 mb-10 md:mx-0 md:grid-cols-2">
+  <div class="md:mr-3">
+    <div class="mb-5">
+      <Card
+        headline={t('competition.functions.4.headline')}
+        text={t('competition.functions.4.text')}
+        icon="bi-hourglass-split"
+      />
+    </div>
+    <div class="mb-5">
+      <Card
+        headline={t('competition.functions.2.headline')}
+        text={t('competition.functions.2.text')}
+        icon="bi-check2-circle"
+      />
+    </div>
+    <div class="mb-5">
+      <Card headline={t('competition.functions.3.headline')} text={t('competition.functions.3.text')} icon="bi-truck" />
+    </div>
+    <div class="mb-5">
+      <Card
+        headline={t('competition.functions.7.headline')}
+        text={t('competition.functions.7.text')}
+        icon="bi-exclamation-triangle"
+      />
+    </div>
+  </div>
+  <div class="md:ms-3 md:mt-11">
+    <div class="mb-5">
+      <Card headline={t('competition.functions.1.headline')} text={t('competition.functions.1.text')} icon="bi-gem" />
+    </div>
+
+    <div class="mb-5">
+      <Card
+        headline={t('competition.functions.5.headline')}
+        text={t('competition.functions.5.text')}
+        icon="bi-list-check"
+      />
+    </div>
+
+    <div class="mb-5">
+      <Card
+        headline={t('competition.functions.6.headline')}
+        text={t('competition.functions.6.text')}
+        icon="bi-search"
+      />
+    </div>
+  </div>
+</div>
+
+<div class="mb-10 sm:mb-14 mx-4 lg:mx-0">
+  <div class="mb-3">
+    <Confrontation first={t('competition.confrontations.1.first')} second={t('competition.confrontations.1.second')}>
+      {t('competition.confrontations.1.statement')}
+    </Confrontation>
+  </div>
+
+  <div class="mb-3">
+    <Confrontation first={t('competition.confrontations.2.first')} second={t('competition.confrontations.2.second')}>
+      {t('competition.confrontations.2.statement')}
+    </Confrontation>
+  </div>
+
+  <div class="mb-3">
+    <Confrontation first={t('competition.confrontations.3.first')} second={t('competition.confrontations.3.second')}>
+      {t('competition.confrontations.3.statement')}
+    </Confrontation>
+  </div>
+</div>
