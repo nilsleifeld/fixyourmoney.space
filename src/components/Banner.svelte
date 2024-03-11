@@ -25,7 +25,7 @@
       </div>
       <div class="grid grid-cols-1 gap-2">
         <button class="btn btn-primary" on:click={acceptAll}>Alle akzeptieren</button>
-        <button class="btn btn-secondary" on:click={acceptOnlyRequired}>Nur zur darstellung Benötiegte</button>
+        <button class="btn btn-secondary" on:click={acceptOnlyRequired}>Nur zur Darstellung benötigte</button>
         <button class="btn btn-secondary" on:click={rejectAll}>Weiter ohne Einwilligung</button>
       </div>
     </div>

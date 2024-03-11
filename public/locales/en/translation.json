@@ -9,7 +9,7 @@
   "assets": {
     "headline": "Is everything going to zero measured in Bitcoin?",
     "subheading": "Stocks & Assets",
-    "text": "In a world where central banks manipulate interest rates and expand the money supply, it makes sense to change the unit of account. Just like currencies, we can also convert the prices of other assets using the rule of three. We find out that stocks, real estate, or indices measured in Bitcoin or gold also tend to fall over the years. This is an important insight because once we realize that we can choose our unit of account, we obviously choose a unit of account in which prices fall through productivity growth and innovations. While doing this our savings become worth more over time. Saving makes sense again as we become aware of the opportunity costs. Chance the unit of account in the chart to see the stocks and assets from a different perspective.",
+    "text": "In a world where central banks manipulate interest rates and expand the money supply, it makes sense to change the unit of account. Just like currencies, we can also convert the prices of other assets using the rule of three. We find out that stocks, real estate, or indices measured in Bitcoin or gold also tend to fall over the years. This is an important insight because once we realize that we can choose our unit of account, we obviously choose a unit of account in which prices fall through productivity growth and innovations. While doing this our savings become worth more over time. Saving makes sense again as we become aware of the opportunity costs. Change the unit of account in the chart to see the stocks and assets from a different perspective.",
     "points": {
       "1": "Each person can choose his or her own money and unit of account with the rule of three",
       "2": "It makes sense to choose a money in which prices are stable or even decrease",
@@ -70,7 +70,7 @@
       "2": {
         "first": "Hardware",
         "second": "Software",
-        "statement": "Hardware has the charateristics that it can't be easily copied or multiplied without costs. Software on the other side consists out of information and can be copied with minimal costs. Information can be send over the internet with very low costs, while it's expensive to store or to ship hardware around the world."
+        "statement": "Hardware has the characteristics that it can't be easily copied or multiplied without costs. Software on the other side consists out of information and can be copied with minimal costs. Information can be send over the internet with very low costs, while it's expensive to store or to ship hardware around the world."
       },
       "3": {
         "first": "Token",
