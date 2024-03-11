@@ -37,10 +37,6 @@
       symbol: 'TSLA',
     },
     {
-      name: 'Google',
-      symbol: 'GOOG',
-    },
-    {
       name: 'Amazon',
       symbol: 'AMZN',
     },
@@ -79,14 +75,6 @@
     {
       name: 'RWE',
       symbol: 'FWB:RWE',
-    },
-    {
-      name: 'Bayer AG',
-      symbol: 'XETR:BAYN',
-    },
-    {
-      name: 'Adidas',
-      symbol: 'OTC:ADDYY',
     },
     {
       name: 'Ford',
