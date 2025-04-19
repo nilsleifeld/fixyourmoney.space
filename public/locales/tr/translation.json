@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "headline-first": "Bitcoin yükseliyor mu",
+    "headline-second": "yoksa para birimi mi düşüyor",
+    "dollar-in-bitcoin": "Bitcoin cinsinden Dolar",
+    "bitcoin-in-dollar": "Dolar cinsinden Bitcoin",
+    "text": "Bitcoin'in fiyatı neredeyse her yıl artıyor, ama neden? Bitcoin sonsuza kadar yükselebilir mi? Neden hisse senetleri, evler ve tüketim mallarının fiyatları yükseliyor? Para nedir? Paranın önemli ve gerekli özellikleri nelerdir? Her gün çalışıyor, yenilik yapıyor ve üretkenliği artırıyoruz ama fiyatlar neden artıyor? Neden günümüz eğitim sisteminde para ve parasal tarih hakkında bir şey öğrenmiyoruz? Uzunluk, zaman ve ağırlık ölçü birimleri doğal sabitlere bağlıyken fiyatlarımızın ölçüsü neden sabit değil? Bunu sadece birkaç kişi anlıyor. Onlardan biri ol ve dünyayı yeni bir bakış açısından keşfet. Paranızı düzeltin, dünyanızı düzeltin!"
+  },
+  "assets": {
+    "headline": "Bitcoin cinsinden ölçüldüğünde her şey sıfıra mı gidiyor?",
+    "subheading": "Hisse Senetleri ve Varlıklar",
+    "text": "Merkez bankalarının faiz oranlarını manipüle ettiği ve para arzını genişlettiği bir dünyada, hesap birimini değiştirmek mantıklıdır. Paralar gibi, diğer varlıkların fiyatlarını da üçlü kural ile dönüştürebiliriz. Hisse senetleri, gayrimenkul veya endekslerin Bitcoin veya altın cinsinden ölçüldüğünde yıllar içinde düştüğünü görüyoruz. Bu önemli bir içgörüdür çünkü bir kez hesap birimimizi seçme özgürlüğümüz olduğunu fark ettiğimizde, fiyatların verimlilik artışı ve yeniliklerle düştüğü bir hesap birimi seçeriz. Bunu yaparken birikimlerimizin değeri zamanla artar. Tasarruf tekrar anlamlı hale gelir çünkü fırsat maliyetlerinin farkına varırız. Grafikteki hesap birimini değiştirerek hisse senetlerini ve varlıkları farklı bir perspektiften görün.",
+    "points": {
+      "1": "Her birey üçlü kural ile kendi parasını ve hesap birimini seçebilir",
+      "2": "Fiyatların sabit kaldığı ya da düştüğü bir para birimi seçmek mantıklıdır",
+      "3": "Tasarruf tekrar anlam kazanır çünkü birikimlerin alım gücü artar"
+    }
+  },
+  "currencies": {
+    "headline": "Bugünün para birimleri gerçekten sabit mi?",
+    "subheading": "Para Birimleri",
+    "text": "Bitcoin ve altın fiyatlarının arttığını düşünebilirsiniz, yoksa merkez bankası paraları mı düşüyor? Fiyatlar sadece bir değişim oranıdır ve bu oran yıllar içinde değişir. Bir Bitcoin'in ya da bir ons altının küçük bir kısmını satın almak için giderek daha fazla dolar, euro veya frank gerekiyor. Ya da Bitcoin veya altın karşılığında daha fazla dolar, euro veya frank alıyoruz. Bunun nedeni, merkez bankalarının her yıl ve her kriz döneminde para arzını artırmasıdır. Ayrıca, giderek daha fazla insan bugünün para birimlerinin değerini korumadığını anlayarak Bitcoin veya altın gibi kıt varlıklara yöneliyor. Grafikteki hesap birimini değiştirerek para birimlerini farklı bir perspektiften görün.",
+    "points": {
+      "1": "Fiyat sadece geçmişte ölçülmüş bir değişim oranıdır",
+      "2": "Merkez bankası para birimleri kıt varlıklarla ölçüldüğünde zamanla değer kaybeder"
+    }
+  },
+  "competition": {
+    "headline": "Sizce para nedir?",
+    "subheading": "Para Birimi Yarışması",
+    "text": "Günümüz para birimlerinin iyi bir para olmadığını çünkü para arzının sürekli genişlediğini ve fiyatların arttığını gördük. Peki, hangi yeni para birimi ile senkronize olmalıyız? Bunu kim belirliyor ve iyi bir hesap birimini seçmek için hangi kriterleri kullanıyoruz? Şimdiye kadar yalnızca geçmiş fiyatlara baktık, ancak iyi paranın insan eylemi mantığıyla sahip olması gereken özellikleri de vardır.",
+    "functions-headline": "Paranın hangi işlevleri olmalı?",
+    "functions-text": "Parayı, değişim işlemleri yoluyla birlikte yaşamayı kolaylaştırmak için kullanırız. Bu da paranın üç ana işlevini doğurur. Parayı değişim aracı, değer saklama aracı ve hesap birimi olarak kullanırız. Bu işlevlerden, paranın bu işlevleri yerine getirebilmesi için sahip olması gereken özellikler türetilir.",
+    "functions": {
+      "1": {
+        "headline": "Kıtlık",
+        "text": "Paranın, alındığı zaman ile harcandığı zaman arasında eşit değerde kalabilmesi için arzı sınırlı olmalıdır. Para arzının genişletilmesi yeniden dağıtıma ve adaletsizliğe yol açar."
+      },
+      "2": {
+        "headline": "Bölünebilirlik",
+        "text": "Değişimlerimizin olabildiğince verimli olması için, para kolayca bölünebilir olmalıdır."
+      },
+      "3": {
+        "headline": "Taşınabilirlik",
+        "text": "Değişimlerin gerçekleşebilmesi için para bir kişiden diğerine mekânlar arasında aktarılabilir olmalıdır."
+      },
+      "4": {
+        "headline": "Dayanıklılık",
+        "text": "Paranın değişimler arasında değerini koruyabilmesi için dayanıklı olması ve çürümemesi, paslanmaması veya bozulmaması gerekir."
+      },
+      "5": {
+        "headline": "Homojenlik",
+        "text": "Tüm para birimleri kaliteleri açısından mümkün olduğunca eşit olmalıdır ki güvenle değiş tokuş yapılabilsin."
+      },
+      "6": {
+        "headline": "Doğrulanabilirlik",
+        "text": "Gerçekliğin doğrulanabilir olması önemlidir ki bir değişim ortağı sahte parayla dolandırılmasın."
+      },
+      "7": {
+        "headline": "Sansüre Direnç",
+        "text": "Sansüre direnç, tüm kuralların eşit şekilde belirlenmesini ve takip edilmesini garanti eder, kişisel kazançlar için değiştirilemez."
+      }
+    },
+    "confrontations": {
+      "1": {
+        "first": "Fiziksel nesne",
+        "second": "Veri kaydı",
+        "statement": "Bir yandan, para altın sikke gibi kendi içinde benzersiz olan fiziksel bir nesne olabilir. Ama para aynı zamanda merkezi olarak saklanan bir kayıttaki dijital bir giriş de olabilir. Bir veri girişi negatif olabilirken, fiziksel bir nesne ya vardır ya da yoktur."
+      },
+      "2": {
+        "first": "Donanım",
+        "second": "Yazılım",
+        "statement": "Donanımın kolayca kopyalanamayan ya da düşük maliyetle çoğaltılamayan özellikleri vardır. Öte yandan yazılım bilgiden oluşur ve düşük maliyetle kopyalanabilir. Bilgi internet üzerinden çok düşük maliyetle gönderilebilirken donanımı depolamak veya dünya çapında göndermek pahalıdır."
+      },
+      "3": {
+        "first": "Token",
+        "second": "Defter",
+        "statement": "Bitcoin, fiziksel nesneler, veri kaydı, donanım ve yazılım özelliklerini birleştirir. İşlem geçmişi merkezi olmayan bir defterde saklanır ve en son sürümü tanımlamak için zaman damgaları vardır. Mülkiyet, özel bir sır olarak tutulan benzersiz dijital anahtarlar/tokenlar ile tanımlanır. Yazılım senkronize olurken donanım, yedekli ve merkezi olmayan ağın bir parçası olarak değiştirilebilir."
+      }
+    }
+  },
+  "candidates": {
+    "chart-headline": "Para Birimi Yarışması",
+    "headline": "İyi para adaylarının karşılaştırması",
+    "text": "Bitcoin cinsinden ölçüldüğünde altının son yıllarda sürekli değer kaybettiğini görüyoruz. Aynı şekilde, Bitcoin'in altına karşı son yıllarda önemli ölçüde değer kazandığını söyleyebiliriz. Ekonomik hesaplamalar yalnızca bireyler olarak iyi bir parayı hesap birimi olarak kullandığımızda mantıklı ve anlamlı olur. Sadece bunu yaparak kaynakları ekonomide verimli şekilde tahsis edebilir ve insanların en büyük ihtiyaçları için üretim teşviklerini belirleyebiliriz. Bu şu anda mümkün değildir çünkü kötü paramız nedeniyle ekonomik hesaplamalar bozulmuştur. Para merkezi bir otorite tarafından değil, halkın eylemleri ve günlük kararlarıyla yaratılır. Her eylem parayla ilgili düşünen bireyin kararıyla başlar. Her birey fiyatlara ve dolayısıyla dünyaya hangi perspektiften bakacağını kendisi seçer. Peki sizin paranız nedir? Sadece kendi hayatınız için değil, hepimizin hayatı için iyi bir para seçin. Üçlü kuralı avantajınıza kullanın ve aynı zamanda toplumdaki yanlış teşvikleri düzeltin. Daha iyi para, daha iyi bir dünya! Paranızı düzeltin, dünyanızı düzeltin!",
+    "points": {
+      "1": "İyi bir para arayın",
+      "2": "Fiyatları iyi para cinsinden hesaplayın",
+      "3": "İyi para biriktirin",
+      "4": "Karlılık ve ekonomik hesaplamaları iyi para cinsinden yapın",
+      "5": "İnsan eyleminin mantığını öğrenin!"
+    }
+  },
+  "impact": {
+    "headline": "Sağlam paranın etkisi nedir",
+    "subheading": "Etkiler",
+    "text": "Her birey kendi hesap birimini seçebilir. Bu bize fiyatlara hem enflasyonist hem de deflasyonist bir perspektiften bakma imkanı verir. Doğa bilimlerinde metre, kilogram veya saniye birimlerini doğal sabitlere bağladığımız gibi, fiyatları ölçmek için de sabit bir para arzı kullanabiliriz. Bu birey, işletmeler ve toplum için sonuçlar doğurur ve bunlar aşağıda özetlenmiştir.",
+    "cards": {
+      "learn-more": "Daha fazla öğren",
+      "individual": {
+        "headline": "Birey",
+        "text": "Fiyatlar uzun vadede yenilikler ve üretkenlik artışları nedeniyle düşme eğilimindeyken, para biriktirmek tekrar değerli hale gelir. Bu, bireyin geleceği daha etkili şekilde planlamasını ve geleceğe hazırlık yapmasını sağlar çünkü birikimler satın alma gücünü kaybetmez ve uzun vadeli hedefler için tasarruf yapmak daha kolay olur. Bu, bireyin geleceği daha önemli görmesini sağlar ve uzun vadeli düşünce ve eylem için teşvikler yaratır. Kısa vadeli tüketimden kaçınılır çünkü fırsat maliyetleri daha açık hale gelir. Hesap biriminin merkezi bir otorite tarafından belirlenmediğinin fark edilmesi bireyin düşük faiz oranı, parasal genişleme ve merkez bankası politikalarına bağlı olmadığını anlamasına yol açar; birey, hesap birimini ve dünya görüşünü kendisi belirler. Bu farkındalık sayesinde tasarruf yoluyla zenginlik oluşur ve birey yoksulluktan ve koşu bandından kurtulabilir.",
+        "points": {
+          "1": "Yenilik ve üretkenlik nedeniyle fiyatlar uzun vadede düşer",
+          "2": "Tasarruf tekrar değerli hale gelir",
+          "3": "Uzun vadeli düşünce artar"
+        }
+      },
+      "companies": {
+        "headline": "Şirketler",
+        "text": "Deflasyonist bir para sistemi şirketler üzerinde, kârların riske atılmadan yeniden yatırılmak zorunda olmaması ve rezervlerin sürekli satın alma gücünü kaybetmemesi gibi etkiler yaratır. Bu nedenle, \"iyi\" para, güvenli bir hazine varlığı olarak şirketlerin plan yapma yeteneğini artırır ve ekonomik özgürlüğünü geliştirir. Ayrıca, \"iyi\" para bazlı karlılık hesaplamaları kaynak yanlış tahsislerini ortaya çıkarır ve piyasa faiz oranı yardımıyla fırsat maliyetlerini netleştirir. Kaynaklar, müşteri talebinin en yüksek olduğu ekonomik sektörlere akar, bu da üretkenliği ve dolayısıyla refahı artırır. Şirketler için, kıt kaynakların sorumlu kullanımı ödüllendirilir ve piyasada hayatta kalmanın tek yolu budur çünkü kurtarma paketleri veya kredi para yaratımı yoktur. İnsanlar tasarruf etmenin faydaları nedeniyle parayı daha yavaş harcama eğiliminde olduğundan, şirketler insanların harcama yapması için ürün ve hizmet kalitesine daha fazla dikkat etmek zorundadır.",
+        "points": {
+          "1": "Sağlam para rezerv olarak kullanılır",
+          "2": "Fiyatlar ve kârlılık hesaplamaları sabit bir birime bağlıdır",
+          "3": "Şirketlerin verimli ve kaliteli üretim yapma teşviki artar"
+        }
+      },
+      "society": {
+        "headline": "Toplum",
+        "text": "Eğer öğrenme yeteneğine sahip birey, dünyaya deflasyonist bir bakış açısından bakmanın avantajlarını fark ederse, öğrenmeye açık bireylerden oluşan bir toplum sabit para arzına sahip bir paraya senkronize olur. Bu otomatik olarak parayla devletin (veya başka bir merkezi otoritenin) ayrılmasına yol açar. Buna aynı zamanda odak noktası/Schelling noktası da denir. Bu, her birey için optimum olduğu için ortaya çıkan bir dengedir. Tasarrufun kârlı olduğu bir toplum uzun vadede refaha kavuşur çünkü üretim tüketimden fazladır. Manipüle edilemeyen bir hesap birimi ekonomik hesaplamalara olanak tanır ve bu da hem bireyin hem de toplumun zenginleşmesine neden olur. Aile gibi merkezi olmayan yapılar güçlenir çünkü kendi servetlerini ve bağımsızlıklarını inşa edebilirler ve merkezi kurumların vaatlerine bağımlı kalmazlar. Toplum daha az kırılgan hale gelir çünkü herkes aynı merkezi otoriteye bağlı değildir. Bitcoin, kriptografi sayesinde sınırsız mülkiyet hakları sağlar. Bu, merkezi bir otorite tarafından azınlık lehine yeniden dağıtımı engeller. Ayrıca, Bitcoin herkesin katılabildiği açık bir parasal sistemdir. Bu, tüm insanların işbölümüne dayalı bir topluma katılmasını ve işbirliğinden faydalanmasını sağlar. Şirketlerin politikacılardan para hediyesi almadığı bir toplumda, kaynaklarını mümkün olduğunca sürdürülebilir şekilde kullanmaları ve müşterilerinin yararına hareket etmeleri gerekir. Ortaya çıkan rekabet, kaynak israfını cezalandırır, uzun vadeli planlamayı ödüllendirir ve kalite ile üretkenliği teşvik eder. Bu da herkesin refahını artıran sürdürülebilir ve ileri bir toplum yaratır.",
+        "points": {
+          "1": "Ekonomik hesaplamalar için küresel standart olarak tek hesap birimi",
+          "2": "Tasarruf ve sermaye birikimi teşviki refaha yol açar",
+          "3": "Tüm insanlar için finansal kapsayıcılık",
+          "4": "Büyük bir düzenleyici güç olarak rekabet",
+          "5": "Daha az tüketim ve mülkiyet hakları sayesinde sürdürülebilirlik ve kaynak tasarrufu"
+        }
+      }
+    }
+  },
+  "vision": {
+    "headline": "Vizyonumuz",
+    "text": "Dünya kontrolden çıktı ve bunun nedeni, insanların teşviklerini etkileyen enflasyonist para sistemidir. FixYourMoney’nin vizyonu, enflasyonist bir toplumdan deflasyonist bir topluma geçişi hızlandırmaktır. Amacımız, fiyatların düşme eğiliminde olduğu bir para sistemiyle herkese eşit şekilde hizmet eden bir toplumdur. Bu, herkesin yaşam standardını artıracaktır. Hedefimiz, her fiyatın, her ekonomik hesaplamanın, her bilanço tablosunun, her kâr & zarar tablosunun iyi parayla hesaplanmasıdır. Üçlü kural, her bireyi tekrar iyi paraya geri getirir, hatalı teşvikleri düzeltir ve dünyaya ve toplumumuza yeni bir bakış açısı kazandırır. \"Eğer insanlar üçlü kuralı anlasaydı, sabah olmadan bir devrim olurdu.\" #paranıdüzelt #dünyanıdüzelt"
+  },
+  "choose-calculation-unit": "Hesap biriminizi seçin",
+  "meta": {
+    "description": "Para kıt olmalı, ancak merkez bankası para birimleri enflasyonisttir ve bu nedenle yeni bir para arıyoruz. Paranızı düzeltin, dünyanızı düzeltin!"
+  }
+}

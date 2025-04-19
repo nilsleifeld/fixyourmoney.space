@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "headline-first": "Roste Bitcoin",
+    "headline-second": "nebo klesá měna",
+    "dollar-in-bitcoin": "Dolar v Bitcoinu",
+    "bitcoin-in-dollar": "Bitcoin v dolaru",
+    "text": "Cena Bitcoinu téměř každý rok roste, ale proč? Je možné, že Bitcoin poroste navždy? Proč rostou ceny akcií, nemovitostí a spotřebního zboží? A co je to vlastně peníze? Jaké jsou důležité a nezbytné vlastnosti peněz? Proč ceny rostou, i když každý den pracujeme, inovujeme a zvyšujeme produktivitu? Proč se o penězích a měnové historii neučíme ve vzdělávacím systému? Proč jsou jednotky pro délku, čas a váhu pevně definované přirozenými konstantami, ale měřítko pro naše ceny ne? Jen málo lidí tomu rozumí. Staň se jedním z nich a objev svět z nové perspektivy. Oprav své peníze, oprav svůj svět!"
+  },
+  "assets": {
+    "headline": "Jde vše k nule měřeno v Bitcoinu?",
+    "subheading": "Akcie a aktiva",
+    "text": "Ve světě, kde centrální banky manipulují s úrokovými sazbami a rozšiřují peněžní zásobu, má smysl změnit účetní jednotku. Stejně jako měny můžeme pomocí pravidla tří přepočítávat ceny ostatních aktiv. Zjistíme, že akcie, nemovitosti nebo indexy měřené v Bitcoinu nebo ve zlatě mají také tendenci klesat v průběhu let. To je důležité poznání, protože jakmile si uvědomíme, že si můžeme zvolit účetní jednotku, logicky si vybereme tu, ve které ceny klesají díky růstu produktivity a inovacím. Tím se naše úspory časem zhodnocují. Šetření opět dává smysl, protože si uvědomujeme náklady příležitosti. Změň účetní jednotku v grafu a podívej se na akcie a aktiva z jiné perspektivy.",
+    "points": {
+      "1": "Každý si může vybrat své vlastní peníze a účetní jednotku pomocí pravidla tří",
+      "2": "Má smysl vybrat si měnu, ve které jsou ceny stabilní nebo dokonce klesají",
+      "3": "Úspory opět dávají smysl, protože jejich kupní síla roste"
+    }
+  },
+  "currencies": {
+    "headline": "Jsou dnešní měny stabilní?",
+    "subheading": "Měny",
+    "text": "Možná si myslíš, že ceny Bitcoinu a zlata rostou, nebo padají centrální bankovní měny? Ceny jsou jen směnné poměry a tento poměr se zjevně v průběhu let mění. Potřebujeme stále více dolarů, eur nebo franků, abychom koupili zlomek Bitcoinu nebo unci zlata. Naopak, za náš Bitcoin nebo zlato dostáváme stále více dolarů, eur nebo franků. Děje se tak proto, že centrální banky každý rok a při každé krizi zvyšují nabídku svých měn. Stále více lidí také chápe, že dnešní měny si neudržují svou hodnotu, a proto přecházejí ke vzácným věcem jako Bitcoin nebo zlato. Změň účetní jednotku v grafu a podívej se na měny z jiné perspektivy.",
+    "points": {
+      "1": "Cena je jen směnný poměr měřený v minulosti",
+      "2": "Všechny měny centrálních bank v průběhu času klesají, měřeno ve vzácných aktivech"
+    }
+  },
+  "competition": {
+    "headline": "Co jsou pro tebe peníze?",
+    "subheading": "Měnová konkurence",
+    "text": "Zjistili jsme, že dnešní měny nejsou dobrými penězi, protože se jejich nabídka rozšiřuje a v důsledku toho rostou ceny. Ale jaké nové peníze bychom si měli zvolit? Kdo o tom rozhoduje a jaká kritéria použijeme pro výběr dobré účetní jednotky? Dosud jsme se dívali pouze na ceny z minulosti, ale existují i vlastnosti, které musí dobré peníze mít na základě logiky lidského jednání.",
+    "functions-headline": "Jaké funkce musí peníze plnit?",
+    "functions-text": "Používáme peníze, abychom si usnadnili soužití prostřednictvím směnných transakcí. Z toho vyplývají tři hlavní funkce peněz. Používáme je jako prostředek směny, uchovatele hodnoty a účetní jednotku. Z toho lze odvodit vlastnosti, které musí dobré peníze mít, aby tyto funkce plnily.",
+    "functions": {
+      "1": {
+        "headline": "Vzácnost",
+        "text": "Aby měly peníze stejnou hodnotu mezi okamžikem, kdy je obdržíme, a okamžikem, kdy je utratíme, musí být jejich nabídka omezená. Rozšiřování peněžní zásoby vede k redistribuci a nespravedlnosti."
+      },
+      "2": {
+        "headline": "Dělitelnost",
+        "text": "Aby byly směny co nejefektivnější, měly by být peníze snadno dělitelné."
+      },
+      "3": {
+        "headline": "Přenositelnost",
+        "text": "Aby směny mohly vůbec probíhat, musí být peníze přenositelné mezi jednotlivci v prostoru."
+      },
+      "4": {
+        "headline": "Trvanlivost",
+        "text": "Aby si peníze mezi směnami udržely hodnotu, musí být trvanlivé a nesmí hnít, rezavět nebo se rozpadat."
+      },
+      "5": {
+        "headline": "Homogenita",
+        "text": "Všechny peněžní jednotky by měly být co nejvíce stejné v kvalitě, aby bylo možné směny provádět s důvěrou."
+      },
+      "6": {
+        "headline": "Ověřitelnost",
+        "text": "Schopnost ověřit pravost je důležitá, aby nemohl být partner ve směně podveden padělanými penězi."
+      },
+      "7": {
+        "headline": "Odolnost vůči cenzuře",
+        "text": "Odolnost vůči cenzuře zaručuje, že všechna pravidla jsou nastavena a dodržována stejně a nemohou být změněna pro osobní zisk."
+      }
+    },
+    "confrontations": {
+      "1": {
+        "first": "Fyzický objekt",
+        "second": "Datový registr",
+        "statement": "Na jedné straně mohou být peníze fyzickým objektem, který je sám o sobě jedinečný, například zlatá mince. Peníze však mohou být také digitálním zápisem v registru, který je uložen centrálně. Zatímco datový zápis může být negativní, fyzický objekt buď existuje, nebo neexistuje."
+      },
+      "2": {
+        "first": "Hardware",
+        "second": "Software",
+        "statement": "Hardware má tu vlastnost, že ho nelze snadno kopírovat bez nákladů. Software je naopak pouze informací a může být kopírován s minimálními náklady. Informace lze přes internet posílat s velmi nízkými náklady, zatímco uložení nebo doprava hardwaru po světě je drahá."
+      },
+      "3": {
+        "first": "Token",
+        "second": "Účetní kniha",
+        "statement": "Bitcoin kombinuje vlastnosti fyzických objektů, datového registru, hardwaru a softwaru. Transakční historie je uložena v decentralizované účetní knize a má časová razítka pro určení nejnovější verze. Vlastnictví je definováno unikátními digitálními klíči/tokeny, které jsou uchovávány jako soukromé tajemství. Software je synchronizován a hardware může být nahrazen jako součást redundantní, decentralizované sítě."
+      }
+    }
+  },
+  "candidates": {
+    "chart-headline": "Měnová konkurence",
+    "headline": "Kandidáti na dobré peníze v porovnání",
+    "text": "Vidíme, že zlato měřeno v Bitcoinu neustále ztrácí hodnotu v posledních letech. Podobně můžeme říci, že Bitcoin získal výrazně na hodnotě oproti zlatu. Ekonomické výpočty mají smysl jen tehdy, pokud jako jednotlivci používáme dobré peníze jako účetní jednotku. Jen tímto způsobem můžeme efektivně alokovat zdroje v ekonomice a identifikovat motivace k produkci podle největších potřeb lidí, čímž se zvýší prosperita všech. To v současnosti není možné, protože ekonomické výpočty jsou zkresleny špatnými penězi. Peníze nejsou tvořeny centrální autoritou, ale činy lidí a jejich každodenním rozhodováním. Každý jednotlivec sám rozhoduje, z jaké perspektivy se na ceny – a tím na svět – dívá. Tak co jsou tvoje peníze? Vyber si dobré peníze nejen pro svůj život, ale i pro náš společný život. Použij pravidlo tří ve svůj prospěch a zároveň naprav nesprávné motivace ve společnosti. Lepší peníze pro lepší svět! Oprav své peníze, oprav svůj svět!",
+    "points": {
+      "1": "Hledání dobrých peněz",
+      "2": "Počítání cen v dobrých penězích",
+      "3": "Spoření v dobrých penězích",
+      "4": "Výpočty ziskovosti a ekonomiky v dobrých penězích",
+      "5": "Studuj logiku lidského jednání!"
+    }
+  },
+  "impact": {
+    "headline": "Jaký má zdravá měna dopad",
+    "subheading": "Dopady",
+    "text": "Každý si může zvolit svou účetní jednotku. To nám umožňuje nahlížet na ceny z inflační i deflační perspektivy. Stejně jako v přírodních vědách máme jednotky jako metr, kilogram nebo sekundu navázané na přirozené konstanty, můžeme také použít konstantu pro měření cen – konstantní peněžní zásobu. To má dopady na jednotlivce, firmy i společnost jako celek, jak je popsáno níže.",
+    "cards": {
+      "learn-more": "Zjisti víc",
+      "individual": {
+        "headline": "Jednotlivec",
+        "text": "Protože ceny mají dlouhodobě tendenci klesat díky inovacím a růstu produktivity, spoření peněz se opět vyplatí. To umožňuje jednotlivci lépe plánovat a připravovat se na budoucnost, protože úspory neztrácejí kupní sílu a je tedy snazší šetřit na dlouhodobé cíle. Díky tomu se zvyšuje důležitost budoucnosti a vytvářejí se motivace k dlouhodobému myšlení a jednání. Krátkodobá spotřeba se omezuje, protože náklady příležitosti jsou zjevnější. Uvědomění si, že účetní jednotku neurčuje žádná centrální autorita, ale že odpovědnost má sám jednotlivec, přináší orientaci a jistotu. Tímto způsobem vzniká bohatství a jednotlivci se mohou vymanit z chudoby a nekonečného koloběhu.",
+        "points": {
+          "1": "Ceny mají tendenci klesat díky inovacím a růstu produktivity",
+          "2": "Spoření se opět vyplácí",
+          "3": "Roste dlouhodobá orientace"
+        }
+      },
+      "companies": {
+        "headline": "Firmy",
+        "text": "Deflační měnový systém má na firmy ten dopad, že zisky nemusí být investovány s rizikem a rezervy neztrácejí hodnotu. 'Dobré' peníze jako bezpečný majetek zvyšují plánovací schopnosti firem a jejich ekonomickou svobodu. Výpočty ziskovosti založené na 'dobrých' penězích odhalují nesprávné alokace zdrojů a díky tržní úrokové míře se vyjasňují náklady příležitosti. Zdroje tečou do odvětví s největší poptávkou, což zvyšuje produktivitu a tím i blahobyt všech. Zodpovědné využívání vzácných zdrojů je odměňováno a jediným způsobem přežití je nabídnout kvalitní produkty bez dotací a tvorby peněz. Díky tomu, že lidé méně utrácejí, musí firma dbát na kvalitu, aby došlo ke směně.",
+        "points": {
+          "1": "Zdravé peníze jako rezervy",
+          "2": "Ceny a ziskovost jsou navázány na konstantu",
+          "3": "Více motivací k produktivitě a kvalitě"
+        }
+      },
+      "society": {
+        "headline": "Společnost",
+        "text": "Pokud jednotlivec zjistí, že pohled na svět z deflační perspektivy má výhody, společnost složená z takto uvažujících lidí se synchronizuje na měnu s konstantní zásobou. To vede k oddělení peněz od státu (nebo jiné centrální autority). Jedná se o tzv. ohnisko nebo Schellingův bod – rovnováhu, která je optimální pro každého jednotlivce. Společnost, kde se vyplácí šetřit, se stává dlouhodobě prosperující, protože se více produkuje než okamžitě spotřebovává. Účetní jednotka, kterou nelze manipulovat, vede k výpočtům umožňujícím akumulaci kapitálu a tedy bohatství pro jednotlivce i společnost. Decentralizované struktury jako rodiny se posilují, protože mohou budovat vlastní majetek a nejsou závislé na příslibech centrálních institucí. Společnost se stává méně zranitelnou, protože není závislá na jediné autoritě. Bitcoin umožňuje neomezená majetková práva díky kryptografii a tím zabraňuje redistribuci. Navíc zajišťuje finanční začlenění všech, protože jde o otevřený měnový systém. Lidé se díky tomu účastní na dělbě práce a specializaci. Společnost, ve které firmy nedostávají peníze od politiků, musí nakládat se zdroji udržitelně a ve prospěch zákazníka, aby přežily. Vzniká tak konkurence jako regulační síla, která odměňuje produktivitu, kvalitu a dlouhodobé plánování. Tím vzniká udržitelná a prosperující společnost pro všechny.",
+        "points": {
+          "1": "Jednotná účetní jednotka jako globální standard",
+          "2": "Motivace ke spoření a budování kapitálu vede k prosperitě",
+          "3": "Finanční začlenění všech",
+          "4": "Konkurence jako regulační síla",
+          "5": "Udržitelnost a šetření zdrojů díky menší spotřebě a vlastnickým právům"
+        }
+      }
+    }
+  },
+  "vision": {
+    "headline": "Naše vize",
+    "text": "Svět je mimo kontrolu, a to kvůli inflačnímu měnovému systému, který ovlivňuje motivaci lidí. Vize FixYourMoney je urychlit přechod od inflační ke deflační společnosti. Usilujeme o společnost s měnovým systémem, který slouží všem stejně a nastavuje motivace tak, aby ceny měly tendenci klesat. Tím se zvyšuje životní úroveň pro všechny. Naším cílem je, aby každá cena, každý ekonomický výpočet, každá rozvaha i výsledovka byla počítána v dobrých penězích. Pravidlo tří vrací každého jednotlivce k dobrým penězům, napravuje nesprávné motivace a otevírá nový pohled na svět a společnost. „Kdyby lidé pochopili pravidlo tří, byla by revoluce dřív než ráno.“ #fixyourmoney #fixyourworld"
+  },
+  "choose-calculation-unit": "Zvol svou účetní jednotku",
+  "meta": {
+    "description": "Peníze musí být vzácné, ale měny centrálních bank jsou inflační, a proto hledáme nové peníze. Oprav své peníze, oprav svůj svět!"
+  }
+}

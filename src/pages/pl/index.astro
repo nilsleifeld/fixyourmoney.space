@@ -1,0 +1,66 @@
+---
+import HeadlineDivider from "../../components/HeadlineDivider.astro";
+import TextBlock from "../../components/TextBlock.astro";
+import AssetsSection from "../../components/money/AssetsSection.astro";
+import Layout from "../../layouts/Layout.astro";
+import CurrencySection from "../../components/money/CurrencySection.astro";
+import CurrencyCompetitionSection from "../../components/money/CurrencyCompetitionSection.astro";
+import ImpactSection from "../../components/money/ImpactSection.astro";
+import { t, changeLanguage } from "i18next";
+import CandidatesSection from "../../components/money/CandidatesSection.astro";
+import HeroSection from "../../components/money/HeroSection.svelte";
+
+changeLanguage("pl");
+---
+
+<Layout title="FixYourMoney">
+  <HeroSection
+    client:visible
+    headlineFirst={t('hero.headline-first')}
+    headlineSecond={t('hero.headline-second')}
+    bitcoinInDollar={t('hero.bitcoin-in-dollar')}
+    dollarInBitcoin={t('hero.dollar-in-bitcoin')}
+  />
+  <div class="container mx-auto max-w-4xl mt-5 xl:mt-20">
+    <div class="mb-10 sm:mb-14 mx-4 lg:mx-0">
+      <TextBlock>
+        {t('hero.text')}
+      </TextBlock>
+    </div>
+    <div class="mb-10 sm:mb-14">
+      <AssetsSection />
+    </div>
+
+    <div class="mb-10 sm:mb-14">
+      <CurrencySection />
+    </div>
+
+    <div class="mb-10 sm:mb-14">
+      <CurrencyCompetitionSection />
+    </div>
+  </div>
+
+  <div class="mb-10 sm:mb-14">
+    <HeadlineDivider headline={t('candidates.headline')} />
+  </div>
+
+  <div class="container mx-auto max-w-4xl">
+    <div class="mb-10 sm:mb-14">
+      <CandidatesSection />
+    </div>
+    <div class="mb-10 sm:mb-14">
+      <ImpactSection />
+    </div>
+    <div class="flex justify-center mb-10 sm:mb-14 items-center h-20 md:h-80">
+      <h1 class="text-4xl sm:text-7xl md:text-8xl font-bold fixYourMoneyAnimation">
+        <span>Fix</span>
+        <span>Your</span>
+        <span>Money,</span>
+        <br />
+        <span>Fix</span>
+        <span>Your</span>
+        <span>World!</span>
+      </h1>
+    </div>
+  </div>
+</Layout>

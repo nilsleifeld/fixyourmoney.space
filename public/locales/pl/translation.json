@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "headline-first": "Czy Bitcoin rośnie",
+    "headline-second": "czy może waluta spada",
+    "dollar-in-bitcoin": "Dolar w Bitcoinie",
+    "bitcoin-in-dollar": "Bitcoin w Dolarze",
+    "text": "Cena Bitcoina rośnie niemal co roku, ale dlaczego? Czy to możliwe, że Bitcoin będzie rosnąć wiecznie? Dlaczego ceny akcji, domów i dóbr konsumpcyjnych rosną? Czym właściwie są pieniądze? Jakie są ważne i niezbędne cechy pieniądza? Dlaczego ceny rosną, mimo że pracujemy, innowujemy i zwiększamy produktywność każdego dnia? Dlaczego nie uczymy się o pieniądzach i historii monetarnej w dzisiejszym systemie edukacji? Dlaczego jednostki miary długości, czasu i wagi są powiązane z naturalnymi stałymi, a miara cen już nie? Tylko nieliczni to rozumieją. Bądź jednym z nich i odkryj świat z nowej perspektywy. Napraw swoje pieniądze, napraw swój świat!"
+  },
+  "assets": {
+    "headline": "Czy wszystko zmierzone w Bitcoinie zmierza do zera?",
+    "subheading": "Akcje i aktywa",
+    "text": "W świecie, w którym banki centralne manipulują stopami procentowymi i zwiększają podaż pieniądza, sensowne staje się zmienienie jednostki rozrachunkowej. Tak jak waluty, możemy również przeliczać ceny innych aktywów za pomocą reguły trzech. Odkrywamy, że akcje, nieruchomości czy indeksy mierzone w Bitcoinie lub złocie również mają tendencję do spadku z czasem. To ważna obserwacja, ponieważ kiedy zdajemy sobie sprawę, że możemy wybrać własną jednostkę rozrachunkową, oczywistym wyborem staje się taka, w której ceny spadają dzięki wzrostowi produktywności i innowacjom. Wtedy oszczędzanie znowu nabiera sensu, ponieważ nasze oszczędności zyskują na wartości. Zmień jednostkę rozrachunkową na wykresie, aby zobaczyć akcje i aktywa z innej perspektywy.",
+    "points": {
+      "1": "Każdy może wybrać własne pieniądze i jednostkę rozrachunkową według reguły trzech",
+      "2": "Warto wybrać pieniądz, w którym ceny są stabilne lub maleją",
+      "3": "Oszczędzanie znowu nabiera sensu, bo siła nabywcza rośnie"
+    }
+  },
+  "currencies": {
+    "headline": "Czy dzisiejsze waluty są stabilne?",
+    "subheading": "Waluty",
+    "text": "Możesz myśleć, że ceny Bitcoina i złota rosną, ale może to waluty banków centralnych spadają? Ceny to tylko stosunki wymiany i oczywiście ten stosunek zmienia się z biegiem lat. Potrzebujemy coraz więcej dolarów, euro czy franków, aby kupić ułamek Bitcoina lub uncję złota. Odwrotnie, za Bitcoina lub złoto dostajemy coraz więcej walut. Dzieje się tak, ponieważ banki centralne co roku i w każdej kryzysowej sytuacji zwiększają podaż swojej waluty. Coraz więcej osób rozumie też, że dzisiejsze waluty nie utrzymują swojej wartości i dlatego przechodzą na rzadkie dobra, jak Bitcoin czy złoto. Zmień jednostkę rozrachunkową na wykresie, aby zobaczyć waluty z innej perspektywy.",
+    "points": {
+      "1": "Cena to tylko stosunek wymiany mierzony w przeszłości",
+      "2": "Wszystkie waluty banków centralnych tracą wartość w stosunku do rzadkich aktywów"
+    }
+  },
+  "competition": {
+    "headline": "Czym dla ciebie są pieniądze?",
+    "subheading": "Konkurencja walutowa",
+    "text": "Odkryliśmy, że dzisiejsze waluty nie są dobrym pieniądzem, ponieważ podaż pieniądza jest rozszerzana, co prowadzi do wzrostu cen. Ale jakimi nowymi pieniędzmi powinniśmy się synchronizować? Kto o tym decyduje i jakimi kryteriami powinniśmy się kierować przy wyborze dobrej jednostki rozrachunkowej? Dotychczas patrzyliśmy tylko na ceny z przeszłości, ale istnieją również cechy, które dobry pieniądz musi posiadać z punktu widzenia logiki ludzkiego działania.",
+    "functions-headline": "Jakie funkcje musi spełniać pieniądz?",
+    "functions-text": "Używamy pieniędzy, aby ułatwić nam wspólne życie poprzez transakcje wymienne. Z tego wynikają trzy główne funkcje pieniądza. Używamy pieniędzy jako środka wymiany, jako środka przechowywania wartości oraz jako jednostki rozrachunkowej. Z tych funkcji można wyprowadzić cechy, które dobry pieniądz musi posiadać.",
+    "functions": {
+      "1": {
+        "headline": "Rzadkość",
+        "text": "Aby pieniądz miał równą wartość między momentem jego otrzymania a momentem wydania, podaż musi być ograniczona. Rozszerzenie podaży prowadzi do efektów redystrybucji i niesprawiedliwości."
+      },
+      "2": {
+        "headline": "Podzielność",
+        "text": "Aby nasze wymiany były jak najbardziej efektywne, pieniądz powinien być łatwo podzielny."
+      },
+      "3": {
+        "headline": "Przenośność",
+        "text": "Aby w ogóle mogły odbywać się wymiany, pieniądz musi być możliwy do przeniesienia z jednej osoby na drugą w przestrzeni."
+      },
+      "4": {
+        "headline": "Trwałość",
+        "text": "Aby pieniądz utrzymywał swoją wartość między wymianami, musi być trwały i nie może gnić, rdzewieć ani niszczeć."
+      },
+      "5": {
+        "headline": "Jednorodność",
+        "text": "Wszystkie jednostki pieniężne powinny być jak najbardziej równe jakościowo, aby wymiany mogły odbywać się z zaufaniem."
+      },
+      "6": {
+        "headline": "Weryfikowalność",
+        "text": "Możliwość sprawdzenia autentyczności jest ważna, aby partner wymiany nie został oszukany fałszywym pieniądzem."
+      },
+      "7": {
+        "headline": "Odporność na cenzurę",
+        "text": "Odporność na cenzurę gwarantuje, że wszystkie zasady są ustalone i przestrzegane jednakowo, bez możliwości zmiany dla osobistych korzyści."
+      }
+    },
+    "confrontations": {
+      "1": {
+        "first": "Obiekt fizyczny",
+        "second": "Rejestr danych",
+        "statement": "Pieniądz może być fizycznym obiektem unikalnym samym w sobie, jak np. złota moneta. Może też być cyfrowym wpisem w rejestrze, który jest przechowywany centralnie. Podczas gdy wpis danych może mieć wartość ujemną, fizyczny obiekt albo istnieje, albo nie."
+      },
+      "2": {
+        "first": "Sprzęt",
+        "second": "Oprogramowanie",
+        "statement": "Sprzęt ma cechy, których nie da się łatwo kopiować bez kosztów. Oprogramowanie to informacja, którą można kopiować niemal bez kosztów. Informację można przesyłać przez internet z minimalnym kosztem, podczas gdy przechowywanie lub transport sprzętu jest kosztowny."
+      },
+      "3": {
+        "first": "Token",
+        "second": "Księga",
+        "statement": "Bitcoin łączy cechy obiektów fizycznych, rejestrów danych, sprzętu i oprogramowania. Historia transakcji jest przechowywana w zdecentralizowanej księdze z sygnaturami czasowymi. Własność jest definiowana przez unikalne klucze/tokenty cyfrowe, które są prywatną tajemnicą. Oprogramowanie się synchronizuje, a sprzęt może być wymieniany jako część redundantnej, zdecentralizowanej sieci."
+      }
+    }
+  },
+  "candidates": {
+    "chart-headline": "Konkurencja walut",
+    "headline": "Kandydaci na dobre pieniądze w porównaniu",
+    "text": "Widzimy, że złoto mierzone w Bitcoinie systematycznie traciło na wartości w ostatnich latach. Podobnie możemy stwierdzić, że Bitcoin zyskał znacznie na wartości względem złota. Obliczenia ekonomiczne mają sens tylko wtedy, gdy jako jednostki używamy dobrego pieniądza. Tylko wtedy możemy efektywnie alokować zasoby i identyfikować potrzeby społeczne. To obecnie niemożliwe, ponieważ obliczenia są zniekształcone przez zły pieniądz. Pieniądz nie powstaje z decyzji władz centralnych, lecz przez codzienne decyzje ludzi. Każda osoba może sama zdecydować, jak patrzy na ceny i tym samym na świat. Więc, jaki jest twój pieniądz? Wybierz dobry pieniądz nie tylko dla swojego życia, ale i dla nas wszystkich. Użyj reguły trzech, aby naprawić błędne bodźce w społeczeństwie. Lepszy pieniądz dla lepszego świata! Napraw swoje pieniądze, napraw swój świat!",
+    "points": {
+      "1": "Szukaj dobrego pieniądza",
+      "2": "Obliczaj ceny w dobrym pieniądzu",
+      "3": "Oszczędzaj dobry pieniądz",
+      "4": "Dokonuj kalkulacji rentowności w dobrym pieniądzu",
+      "5": "Studiuj logikę ludzkiego działania!"
+    }
+  },
+  "impact": {
+    "headline": "Jaki jest wpływ solidnego pieniądza",
+    "subheading": "Wpływy",
+    "text": "Każdy może wybrać własną jednostkę rozrachunkową. To daje nam możliwość spojrzenia na ceny z perspektywy inflacyjnej i deflacyjnej. Tak jak w naukach przyrodniczych jednostki miary są powiązane z naturalnymi stałymi, możemy także mierzyć ceny przy pomocy stałej podaży pieniądza. To ma znaczenie dla jednostki, firm i całego społeczeństwa, co opisano poniżej.",
+    "cards": {
+      "learn-more": "Dowiedz się więcej",
+      "individual": {
+        "headline": "Jednostka",
+        "text": "Ponieważ ceny mają tendencję do spadku w długim okresie dzięki innowacjom i wzrostowi produktywności, oszczędzanie znowu się opłaca. To pozwala jednostce lepiej planować przyszłość, bo oszczędności nie tracą na wartości. Dzięki temu wzrasta znaczenie przyszłości i motywacja do myślenia długoterminowego. Konsumpcja krótkoterminowa jest ograniczana, bo koszty alternatywne są bardziej widoczne. Świadomość, że jednostka rozrachunkowa nie jest ustalana centralnie, prowadzi do większej niezależności jednostki. Oszczędności prowadzą do bogactwa i wyjścia z ubóstwa.",
+        "points": {
+          "1": "Ceny długoterminowo spadają dzięki innowacjom",
+          "2": "Oszczędzanie znowu się opłaca",
+          "3": "Większa orientacja na przyszłość"
+        }
+      },
+      "companies": {
+        "headline": "Firmy",
+        "text": "Deflacyjny system pieniężny wpływa na firmy tak, że zyski nie muszą być reinwestowane ryzykownie, a rezerwy nie tracą ciągle na wartości. Dobry pieniądz jako bezpieczny składnik aktywów zwiększa zdolność planowania firm. Rentowność w dobrym pieniądzu pokazuje nieefektywności, a rynkowa stopa procentowa ujawnia koszty alternatywne. Zasoby trafiają tam, gdzie jest największy popyt. Firmy są wynagradzane za odpowiedzialne zarządzanie zasobami. Jakość produktów i usług zyskuje na znaczeniu.",
+        "points": {
+          "1": "Solidny pieniądz jako rezerwa",
+          "2": "Ceny i zyski mierzone w stałej jednostce",
+          "3": "Więcej motywacji do produktywności i jakości"
+        }
+      },
+      "society": {
+        "headline": "Społeczeństwo",
+        "text": "Jeśli jednostki rozumieją zalety deflacyjnej perspektywy, społeczeństwo wybiera pieniądz o stałej podaży. Prowadzi to do rozdziału pieniędzy i państwa. To tzw. punkt ogniskowy. Społeczeństwo, w którym opłaca się oszczędzać, staje się bogate, bo produkuje się więcej niż konsumuje. Pieniądz, którego nie da się manipulować, umożliwia akumulację kapitału. Zdecentralizowane struktury, jak rodziny, są wzmacniane. Bitcoin umożliwia pełne prawa własności i włączenie finansowe. Konkurencja wymusza jakość, efektywność i zrównoważony rozwój. Społeczeństwo staje się odporne i zaawansowane.",
+        "points": {
+          "1": "Jedna jednostka rozrachunkowa jako standard globalny",
+          "2": "Zachęta do oszczędzania i budowy kapitału",
+          "3": "Włączenie finansowe dla wszystkich",
+          "4": "Konkurencja jako siła regulująca",
+          "5": "Zrównoważony rozwój dzięki ograniczeniu konsumpcji"
+        }
+      }
+    }
+  },
+  "vision": {
+    "headline": "Nasza wizja",
+    "text": "Świat wymyka się spod kontroli przez inflacyjny system monetarny, który wpływa na ludzkie motywacje. Wizją FixYourMoney jest przyspieszenie przejścia z inflacyjnego na deflacyjne społeczeństwo. Dążymy do systemu monetarnego, który służy wszystkim jednakowo i promuje spadające ceny. To zwiększy jakość życia wszystkich. Naszym celem jest, by każda cena, każde obliczenie ekonomiczne, każdy bilans i każda analiza zysków i strat były prowadzone w dobrym pieniądzu. Reguła trzech przywraca każdego do dobrego pieniądza, naprawia błędne bodźce i otwiera nową perspektywę na świat. \"Gdyby ludzie zrozumieli regułę trzech, mielibyśmy rewolucję przed jutrzejszym porankiem.\" #fixyourmoney #fixyourworld"
+  },
+  "choose-calculation-unit": "Wybierz swoją jednostkę rozrachunkową",
+  "meta": {
+    "description": "Pieniądz musi być rzadki, ale waluty banków centralnych są inflacyjne, dlatego szukamy nowego pieniądza. Napraw swoje pieniądze, napraw swój świat!"
+  }
+}

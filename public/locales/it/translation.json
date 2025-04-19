@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "headline-first": "Il Bitcoin sta salendo",
+    "headline-second": "o la valuta sta cadendo",
+    "dollar-in-bitcoin": "Dollaro in Bitcoin",
+    "bitcoin-in-dollar": "Bitcoin in Dollaro",
+    "text": "Il prezzo del Bitcoin sta aumentando quasi ogni anno, ma perché? È possibile che il Bitcoin salga per sempre? Perché i prezzi delle azioni, delle case e dei beni di consumo stanno salendo? E cos'è il denaro? Quali sono le caratteristiche importanti e necessarie del denaro? Perché i prezzi aumentano anche se lavoriamo, innoviamo e aumentiamo la produttività ogni giorno? Perché non impariamo nulla sul denaro e sulla storia monetaria nel sistema educativo odierno? Perché le unità di misura per lunghezza, tempo e peso sono fissate a costanti naturali, ma la misura per i nostri prezzi no? Solo pochi lo capiscono. Sii uno di loro e scopri il mondo da una nuova prospettiva. Sistema il tuo denaro, sistema il tuo mondo!"
+  },
+  "assets": {
+    "headline": "Sta andando tutto a zero misurato in Bitcoin?",
+    "subheading": "Azioni e Attivi",
+    "text": "In un mondo in cui le banche centrali manipolano i tassi di interesse e ampliano l'offerta di moneta, ha senso cambiare l'unità di conto. Proprio come con le valute, possiamo convertire anche i prezzi di altri attivi usando la regola del tre. Scopriamo che azioni, immobili o indici misurati in Bitcoin o oro tendono anch’essi a diminuire nel corso degli anni. Questa è una scoperta importante perché una volta che ci rendiamo conto che possiamo scegliere la nostra unità di conto, ovviamente scegliamo un’unità in cui i prezzi calano grazie alla crescita della produttività e alle innovazioni. In questo modo i nostri risparmi acquisiscono valore nel tempo. Risparmiare ha di nuovo senso perché diventiamo consapevoli dei costi opportunità. Cambia l'unità di conto nel grafico per vedere le azioni e gli attivi da una prospettiva diversa.",
+    "points": {
+      "1": "Ogni persona può scegliere il proprio denaro e unità di conto con la regola del tre",
+      "2": "Ha senso scegliere una moneta in cui i prezzi sono stabili o addirittura diminuiscono",
+      "3": "Risparmiare ha di nuovo senso, perché il potere d'acquisto dei risparmi aumenta"
+    }
+  },
+  "currencies": {
+    "headline": "Le valute di oggi sono stabili?",
+    "subheading": "Valute",
+    "text": "Potresti pensare che i prezzi di Bitcoin e oro stiano salendo, o sono le valute delle banche centrali a diminuire? I prezzi sono solo rapporti di scambio e ovviamente questo rapporto cambia nel tempo. Abbiamo bisogno di sempre più dollari, euro o franchi per acquistare una frazione di Bitcoin o un’oncia d’oro. Oppure riceviamo sempre più dollari, euro o franchi per il nostro Bitcoin o oro. Questo accade perché le banche centrali aumentano l’offerta delle loro valute ogni anno e in ogni crisi. Inoltre sempre più persone capiscono che le valute odierne non mantengono il loro valore e quindi passano a beni scarsi come il Bitcoin o l’oro. Cambia l’unità di conto nel grafico per vedere le valute da una prospettiva diversa.",
+    "points": {
+      "1": "Un prezzo è solo un rapporto di scambio misurato nel passato",
+      "2": "Tutte le valute delle banche centrali stanno calando se misurate in beni scarsi nel tempo"
+    }
+  },
+  "competition": {
+    "headline": "Cos'è il denaro per te?",
+    "subheading": "Competizione monetaria",
+    "text": "Abbiamo scoperto che le valute odierne non sono un buon denaro perché l’offerta di moneta viene ampliata e i prezzi aumentano di conseguenza. Ma quale nuovo denaro dovremmo usare? Chi lo decide e con quali criteri scegliamo una buona unità di conto? Finora, abbiamo solo guardato i prezzi del passato, ma esistono anche caratteristiche che un buon denaro deve possedere secondo la logica dell’azione umana.",
+    "functions-headline": "Quali funzioni deve avere il denaro?",
+    "functions-text": "Usiamo il denaro per rendere più facile la convivenza attraverso gli scambi. Da ciò derivano tre funzioni principali del denaro. Usiamo il denaro come mezzo di scambio, come riserva di valore e come unità di conto. Da queste funzioni possiamo derivare le caratteristiche che un buon denaro deve avere per adempiere a tali funzioni.",
+    "functions": {
+      "1": {
+        "headline": "Scarsità",
+        "text": "Affinché il denaro abbia lo stesso valore tra il momento in cui lo riceviamo e quello in cui lo spendiamo, l’offerta di moneta deve essere limitata. Un'espansione dell’offerta di moneta porta a effetti redistributivi e ingiustizie."
+      },
+      "2": {
+        "headline": "Divisibilità",
+        "text": "Per rendere gli scambi il più efficienti possibile, il denaro deve essere facilmente divisibile."
+      },
+      "3": {
+        "headline": "Trasportabilità",
+        "text": "Affinché avvengano scambi, il denaro deve poter essere trasferito o trasportato da una persona all’altra."
+      },
+      "4": {
+        "headline": "Durabilità",
+        "text": "Affinché il denaro mantenga il suo valore tra gli scambi, deve essere durevole e non marcire, arrugginirsi o deteriorarsi."
+      },
+      "5": {
+        "headline": "Omogeneità",
+        "text": "Tutte le unità monetarie dovrebbero essere quanto più possibile uguali in qualità, in modo da garantire fiducia negli scambi."
+      },
+      "6": {
+        "headline": "Verificabilità",
+        "text": "La possibilità di verificare l’autenticità è importante per evitare frodi con denaro contraffatto."
+      },
+      "7": {
+        "headline": "Resistenza alla censura",
+        "text": "La resistenza alla censura garantisce che tutte le regole siano stabilite e seguite equamente, e non possano essere modificate per guadagni personali."
+      }
+    },
+    "confrontations": {
+      "1": {
+        "first": "Oggetto fisico",
+        "second": "Registro dati",
+        "statement": "Il denaro può essere un oggetto fisico unico, come una moneta d’oro. Ma può anche essere una voce digitale in un registro, che ha la proprietà di essere archiviata centralmente. Mentre una voce digitale può essere negativa, un oggetto fisico esiste o non esiste."
+      },
+      "2": {
+        "first": "Hardware",
+        "second": "Software",
+        "statement": "L’hardware ha la caratteristica di non poter essere copiato o moltiplicato facilmente senza costi. Il software invece è composto da informazioni e può essere copiato a costi minimi. Le informazioni possono essere inviate tramite internet a costi molto bassi, mentre è costoso conservare o spedire hardware nel mondo."
+      },
+      "3": {
+        "first": "Token",
+        "second": "Registro",
+        "statement": "Bitcoin combina le caratteristiche di oggetti fisici, registri di dati, hardware e software. La cronologia delle transazioni è archiviata in un registro decentralizzato e ha marcature temporali per definire la versione più recente. La proprietà è definita da chiavi/tokens digitali unici detenuti come segreti privati. Il software è sincronizzato e l’hardware può essere sostituito come parte della rete decentralizzata e ridondante."
+      }
+    }
+  },
+  "candidates": {
+    "chart-headline": "Competizione monetaria",
+    "headline": "Candidati a buon denaro a confronto",
+    "text": "Vediamo che l’oro misurato in Bitcoin ha perso costantemente valore negli ultimi anni. Allo stesso modo, possiamo affermare che il Bitcoin ha guadagnato valore rispetto all’oro. I calcoli economici sono ragionevoli e significativi solo se usiamo un buon denaro come unità di conto. Solo così possiamo allocare le risorse in modo efficiente nell’economia e identificare gli incentivi per produrre in base ai maggiori bisogni della gente, aumentando la prosperità. Questo attualmente non è possibile perché i calcoli economici sono distorti a causa del nostro cattivo denaro. Il denaro non viene creato da un’autorità centrale, ma dalle azioni delle persone e dalle loro decisioni quotidiane. Ogni azione inizia con l’individuo che riflette sul denaro. Sta a ciascuno scegliere la prospettiva da cui guardare i prezzi e quindi il mondo. Quindi, qual è il tuo denaro? Scegli un buon denaro non solo per la tua vita, ma per la nostra vita. Usa la regola del tre a tuo vantaggio e allo stesso tempo correggi gli incentivi sbagliati nella nostra società. Migliore denaro, per un mondo migliore! Sistema il tuo denaro, sistema il tuo mondo!",
+    "points": {
+      "1": "Cerca un buon denaro",
+      "2": "Calcola i prezzi in buon denaro",
+      "3": "Risparmia buon denaro",
+      "4": "Esegui calcoli economici in buon denaro",
+      "5": "Studia la logica dell’azione umana!"
+    }
+  },
+  "impact": {
+    "headline": "Qual è l'impatto del denaro sano",
+    "subheading": "Impatto",
+    "text": "Ogni persona può scegliere la propria unità di conto. Questo ci dà l’opportunità di guardare ai prezzi sia da una prospettiva inflazionistica che deflazionistica. Proprio come nelle scienze naturali abbiamo collegato le unità di metro, chilogrammo o secondo a una costante naturale, possiamo anche utilizzare una costante per misurare i prezzi – una costante nell’offerta monetaria. Questo ha implicazioni per l’individuo, per le imprese e per la società nel suo insieme, descritte brevemente di seguito.",
+    "cards": {
+      "learn-more": "Scopri di più",
+      "individual": {
+        "headline": "Individuo",
+        "text": "Poiché i prezzi tendono a calare nel lungo periodo grazie alle innovazioni e all’aumento della produttività, risparmiare torna ad essere utile. Questo consente all’individuo di pianificare e provvedere meglio al proprio futuro, poiché i risparmi non perdono potere d’acquisto ed è quindi più facile risparmiare per obiettivi a lungo termine. Questo rende il futuro più importante per l’individuo e crea incentivi per il pensiero e l’azione a lungo termine. Il consumo orientato al breve termine tende ad essere evitato perché i costi opportunità sono più evidenti. La consapevolezza che l’unità di conto non è fissata da un’autorità centrale porta l’individuo a capire che non dipende da tassi d’interesse bassi, espansione monetaria o politica delle banche centrali, ma è responsabile della propria unità di conto e della propria visione del mondo. L’individuo ottiene orientamento e sicurezza attraverso la scelta appropriata dell’unità di conto. Di conseguenza, la ricchezza si crea tramite il processo di risparmio e gli individui possono uscire dalla povertà e dalla ruota del criceto.",
+        "points": {
+          "1": "I prezzi tendono a calare nel lungo periodo grazie a innovazione e produttività",
+          "2": "Risparmiare torna utile",
+          "3": "Crescita dell’orientamento a lungo termine"
+        }
+      },
+      "companies": {
+        "headline": "Imprese",
+        "text": "Un sistema monetario deflazionario ha l’effetto, sulle imprese, che i profitti non devono essere reinvestiti a rischio e che le riserve non perdono continuamente valore. Di conseguenza, il \"buon\" denaro come asset di tesoreria sicuro aumenta la capacità di pianificazione e la libertà economica delle aziende. Inoltre, i calcoli di redditività basati su \"buon\" denaro rivelano sprechi di risorse e, con l’aiuto del tasso d’interesse di mercato, i costi opportunità diventano chiari. Le risorse fluiranno nei settori economici con la maggiore domanda dei clienti, aumentando la produttività e quindi la prosperità di tutti. Per le imprese, l’uso responsabile delle risorse scarse è premiato ed è l’unico modo per sopravvivere sul mercato, poiché non ci sono salvataggi o creazione di credito. Poiché le persone tendono a spendere meno velocemente, un’impresa deve prestare maggiore attenzione alla qualità dei prodotti e dei servizi per far sì che le persone effettuino uno scambio.",
+        "points": {
+          "1": "Denaro sano come riserva",
+          "2": "Prezzi e calcoli di redditività legati a una costante",
+          "3": "Più incentivi alla produttività e alla qualità"
+        }
+      },
+      "society": {
+        "headline": "Società",
+        "text": "Se l’individuo, capace di apprendere, realizza che vi sono vantaggi nel guardare il mondo da una prospettiva deflazionistica, una società composta da individui consapevoli si sincronizzerà con un denaro che ha un’offerta monetaria costante. Ciò porta automaticamente alla separazione tra denaro e stato (o altra autorità centrale). Questo è anche chiamato punto focale/punto di Schelling. Si tratta di un equilibrio che si verifica perché rappresenta l’ottimo per ogni individuo. Una società in cui risparmiare è vantaggioso diventa prospera nel lungo periodo, perché si produce più di quanto si consuma immediatamente. Un’unità di conto non manipolabile porta a calcoli economici che consentono l’accumulazione di capitale e quindi la ricchezza per l’individuo e, in somma, per la società nel suo insieme. Le strutture decentralizzate come le famiglie vengono rafforzate perché possono costruire ricchezza e indipendenza e non dipendono più dalle promesse delle istituzioni centrali. La società diventa meno fragile perché non tutti dipendono dalla stessa autorità centrale. Il Bitcoin consente pieni diritti di proprietà grazie alla crittografia. Questo impedisce redistribuzioni da parte di un’autorità centrale a vantaggio di pochi. Inoltre, il Bitcoin consente l’inclusione finanziaria di tutte le persone perché è un sistema monetario aperto. Tutti possono quindi partecipare alla società basata sulla divisione del lavoro e beneficiare della cooperazione, che a sua volta favorisce tutti, dato che ciascuno ha una specializzazione. In una società in cui le imprese non ricevono regali monetari dai politici, devono utilizzare le risorse in modo sostenibile e per il beneficio dei clienti per sopravvivere sul mercato. La competizione che ne deriva è una forza regolatrice che punisce lo spreco, premia la pianificazione a lungo termine e incentiva la qualità e la produttività. Si crea così una società sostenibile e avanzata che aumenta la prosperità di tutti.",
+        "points": {
+          "1": "Un’unica unità di conto come standard globale per i calcoli economici",
+          "2": "Incentivi al risparmio e alla costruzione di capitale portano alla prosperità",
+          "3": "Inclusione finanziaria per tutte le persone",
+          "4": "La competizione come grande forza regolatrice",
+          "5": "Sostenibilità e conservazione delle risorse grazie a minor consumo e ai diritti di proprietà"
+        }
+      }
+    }
+  },
+  "vision": {
+    "headline": "La nostra visione",
+    "text": "Il mondo è fuori controllo e ciò è dovuto al sistema monetario inflazionistico che influenza gli incentivi delle persone. La visione di FixYourMoney è accelerare la transizione da una società inflazionistica a una deflazionistica. Aspiriamo a una società con un sistema monetario che serva tutti allo stesso modo e stabilisca incentivi in modo tale che i prezzi tendano a calare. Questo aumenterà il tenore di vita di tutti. Il nostro obiettivo è che ogni prezzo, ogni calcolo economico, ogni bilancio, ogni conto economico sia calcolato in buon denaro. La regola del tre riporta ogni singola persona al buon denaro, corregge gli incentivi errati e apre una nuova prospettiva sul mondo e sulla nostra società. \"Se le persone capissero la regola del tre, ci sarebbe una rivoluzione prima di domani mattina.\" #fixyourmoney #fixyourworld"
+  },
+  "choose-calculation-unit": "Scegli la tua unità di conto",
+  "meta": {
+    "description": "Il denaro deve essere scarso, ma le valute delle banche centrali sono inflazionistiche e perciò cerchiamo un nuovo denaro. Sistema il tuo denaro, sistema il tuo mondo!"
+  }
+}

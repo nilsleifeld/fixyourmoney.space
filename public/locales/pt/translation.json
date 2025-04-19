@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "headline-first": "O Bitcoin está subindo",
+    "headline-second": "ou a moeda está caindo",
+    "dollar-in-bitcoin": "Dólar em Bitcoin",
+    "bitcoin-in-dollar": "Bitcoin em Dólar",
+    "text": "O preço do Bitcoin está aumentando quase todos os anos, mas por quê? É possível que o Bitcoin suba para sempre? Por que os preços das ações, imóveis e bens de consumo estão subindo? E o que é dinheiro? Quais são as características importantes e necessárias do dinheiro? Por que os preços estão aumentando, embora estejamos trabalhando, inovando e aumentando a produtividade todos os dias? Por que não aprendemos sobre dinheiro e história monetária no sistema educacional atual? Por que as medidas de comprimento, tempo e peso são fixadas em constantes naturais, mas a medida dos nossos preços não é? Apenas poucos entendem isso. Seja um deles e descubra o mundo a partir de uma nova perspectiva. Conserte seu dinheiro, conserte seu mundo!"
+  },
+  "assets": {
+    "headline": "Tudo está indo a zero medido em Bitcoin?",
+    "subheading": "Ações e Ativos",
+    "text": "Em um mundo onde os bancos centrais manipulam as taxas de juros e expandem a oferta de dinheiro, faz sentido mudar a unidade de conta. Assim como as moedas, também podemos converter os preços de outros ativos usando a regra de três. Descobrimos que ações, imóveis ou índices medidos em Bitcoin ou ouro também tendem a cair ao longo dos anos. Este é um insight importante porque, uma vez que percebemos que podemos escolher nossa unidade de conta, obviamente escolhemos uma unidade de conta na qual os preços caem através do crescimento da produtividade e inovações. Enquanto fazemos isso, nossas economias se tornam mais valiosas com o tempo. Economizar volta a fazer sentido à medida que nos tornamos conscientes dos custos de oportunidade. Altere a unidade de conta no gráfico para ver as ações e ativos de uma perspectiva diferente.",
+    "points": {
+      "1": "Cada pessoa pode escolher seu próprio dinheiro e unidade de conta com a regra de três",
+      "2": "Faz sentido escolher um dinheiro em que os preços sejam estáveis ou até diminuam",
+      "3": "Economizar volta a fazer sentido, pois o poder de compra das economias aumenta"
+    }
+  },
+  "currencies": {
+    "headline": "As moedas de hoje são estáveis?",
+    "subheading": "Moedas",
+    "text": "Você pode pensar que os preços do Bitcoin e do ouro estão subindo, ou será que as moedas dos bancos centrais estão caindo? Preços são apenas relações de troca e, obviamente, essa razão muda ao longo dos anos. Precisamos de mais e mais dólares, euros ou francos para comprar uma fração de um Bitcoin ou uma onça de ouro. Caso contrário, recebemos mais e mais dólares, euros ou francos por nosso Bitcoin ou ouro. Isso acontece porque os bancos centrais aumentam a oferta de suas moedas todos os anos e em cada crise. Além disso, mais e mais pessoas entendem que as moedas de hoje não mantêm seu valor e, portanto, mudam para ativos escassos como Bitcoin ou ouro. Altere a unidade de conta no gráfico para ver as moedas de uma perspectiva diferente.",
+    "points": {
+      "1": "Um preço é apenas uma relação de troca medida no passado",
+      "2": "Todas as moedas dos bancos centrais estão caindo quando medidas em ativos escassos ao longo do tempo"
+    }
+  },
+  "competition": {
+    "headline": "O que é dinheiro para você?",
+    "subheading": "Concorrência monetária",
+    "text": "Descobrimos que as moedas de hoje não são um bom dinheiro porque a oferta monetária está sendo expandida e os preços estão subindo como resultado. Mas com qual novo dinheiro devemos nos sincronizar? Quem decide isso e quais critérios usamos para escolher uma boa unidade de conta? Até agora, apenas olhamos para os preços do passado, mas também existem características que um bom dinheiro deve ter através da lógica da ação humana.",
+    "functions-headline": "Quais funções o dinheiro deve cumprir?",
+    "functions-text": "Usamos dinheiro para facilitar nossa convivência por meio de transações de troca. Isso resulta em três funções principais do dinheiro. Usamos dinheiro como meio de troca, reserva de valor e unidade de conta. A partir dessas funções, podemos derivar características que um bom dinheiro deve ter para cumpri-las.",
+    "functions": {
+      "1": {
+        "headline": "Escassez",
+        "text": "Para que o dinheiro tenha o mesmo valor entre o momento em que o recebemos e o momento em que o gastamos, a oferta de dinheiro deve ser limitada. A expansão da oferta de dinheiro leva a efeitos de redistribuição e injustiça."
+      },
+      "2": {
+        "headline": "Divisibilidade",
+        "text": "Para que nossas trocas sejam o mais eficientes possível, o dinheiro deve ser facilmente divisível."
+      },
+      "3": {
+        "headline": "Transportabilidade",
+        "text": "Para que as trocas ocorram, o dinheiro deve ser transferível ou transportável de uma pessoa para outra através do espaço."
+      },
+      "4": {
+        "headline": "Durabilidade",
+        "text": "Para que o dinheiro mantenha seu valor entre as trocas, ele deve ser durável e não apodrecer, enferrujar ou se deteriorar."
+      },
+      "5": {
+        "headline": "Homogeneidade",
+        "text": "Todas as unidades monetárias devem ser o mais iguais possível em qualidade, para que as trocas possam ser realizadas com confiança."
+      },
+      "6": {
+        "headline": "Verificabilidade",
+        "text": "A capacidade de verificar a autenticidade é importante para que um parceiro de troca não seja enganado com dinheiro falsificado."
+      },
+      "7": {
+        "headline": "Resistência à censura",
+        "text": "A resistência à censura garante que todas as regras sejam definidas e seguidas igualmente, e não possam ser alteradas para ganhos pessoais."
+      }
+    },
+    "confrontations": {
+      "1": {
+        "first": "Objeto físico",
+        "second": "Registro de dados",
+        "statement": "Por um lado, o dinheiro pode ser um objeto físico que é único em si, como uma moeda de ouro. Mas o dinheiro também pode ser uma entrada digital em um registro, que tem a propriedade de ser armazenada centralmente. Enquanto uma entrada de dados pode ser negativa, um objeto físico é ou existente ou inexistente."
+      },
+      "2": {
+        "first": "Hardware",
+        "second": "Software",
+        "statement": "Hardware tem a característica de não poder ser facilmente copiado ou multiplicado sem custos. O software, por outro lado, consiste em informação e pode ser copiado com custos mínimos. A informação pode ser enviada pela internet com custos muito baixos, enquanto é caro armazenar ou enviar hardware pelo mundo."
+      },
+      "3": {
+        "first": "Token",
+        "second": "Registro",
+        "statement": "O Bitcoin combina as características de objetos físicos, registro de dados, hardware e software. O histórico de transações é armazenado em um registro descentralizado e tem registros de tempo para definir a versão mais recente. A propriedade é definida por chaves/tokens digitais únicos que são mantidos como segredo privado. O software é sincronizado e o hardware pode ser substituído como parte da rede descentralizada redundante."
+      }
+    }
+  },
+  "candidates": {
+    "chart-headline": "Concorrência Monetária",
+    "headline": "Candidatos a bom dinheiro em comparação",
+    "text": "Vemos que o ouro medido em Bitcoin tem perdido valor constantemente ao longo dos últimos anos. Da mesma forma, podemos dizer que o Bitcoin ganhou significativamente em valor em relação ao ouro nos últimos anos. Os cálculos econômicos só fazem sentido se nós, como indivíduos, usarmos um bom dinheiro como nossa unidade de conta. Somente assim podemos alocar recursos de forma eficiente na economia e identificar incentivos para produzir para as maiores necessidades das pessoas e aumentar a prosperidade de todos. Isso atualmente não é possível porque os cálculos econômicos são distorcidos devido ao nosso dinheiro ruim. O dinheiro não é criado por uma autoridade central, mas pelas ações das pessoas e suas decisões diárias. Toda ação começa com o indivíduo que pensa sobre o dinheiro. Cabe a cada indivíduo decidir de que perspectiva vê os preços e, portanto, o mundo. Então, qual é o seu dinheiro? Escolha um bom dinheiro não apenas para sua vida, mas para a nossa vida. Use a regra de três a seu favor e, ao mesmo tempo, corrija os incentivos errados em nossa sociedade. Melhor dinheiro, para um mundo melhor! Conserte seu dinheiro, conserte seu mundo!",
+    "points": {
+      "1": "Procure um bom dinheiro",
+      "2": "Calcule preços em bom dinheiro",
+      "3": "Economize bom dinheiro",
+      "4": "Realize cálculos de lucratividade e econômicos em bom dinheiro",
+      "5": "Estude a lógica da ação humana!"
+    }
+  },
+  "impact": {
+    "headline": "Qual é o impacto do dinheiro sólido",
+    "subheading": "Impactos",
+    "text": "Cada pessoa pode escolher sua própria unidade de conta. Isso nos dá a oportunidade de olhar para os preços tanto de uma perspectiva inflacionária quanto deflacionária. Assim como nas ciências naturais ligamos as unidades de metro, quilograma ou segundo a uma constante natural, também podemos usar uma constante para medir preços - uma oferta monetária constante. Isso tem implicações para o indivíduo, para as empresas e para a sociedade como um todo, que são brevemente descritas abaixo.",
+    "cards": {
+      "learn-more": "Saiba mais",
+      "individual": {
+        "headline": "Indivíduo",
+        "text": "Como os preços tendem a cair no longo prazo devido a inovações e aumentos de produtividade, economizar dinheiro volta a ser vantajoso. Isso permite ao indivíduo planejar e se preparar melhor para o futuro, já que as economias não perdem poder de compra e, portanto, é mais fácil poupar para objetivos de longo prazo. Isso torna o futuro mais importante para o indivíduo e cria incentivos para pensar e agir a longo prazo. O consumo orientado para o curto prazo tende a ser evitado porque os custos de oportunidade se tornam mais óbvios. A realização de que a unidade de conta não é definida por uma autoridade central leva o indivíduo a perceber que ele não depende da taxa de juros baixa, da expansão monetária e da política do banco central, mas é responsável pela unidade de conta e sua perspectiva do mundo. O indivíduo obtém orientação e segurança por meio da escolha adequada da unidade de conta. Como resultado, a riqueza é criada através do processo de poupança e os indivíduos podem escapar da pobreza e da roda-viva.",
+        "points": {
+          "1": "Os preços tendem a cair no longo prazo devido a inovações e aumentos de produtividade",
+          "2": "Economizar dinheiro volta a ser vantajoso",
+          "3": "A orientação de longo prazo cresce"
+        }
+      },
+      "companies": {
+        "headline": "Empresas",
+        "text": "Um sistema monetário deflacionário impacta as empresas no sentido de que os lucros não precisam ser reinvestidos com risco, bem como as reservas não perdem poder de compra continuamente. Como resultado, \"bom\" dinheiro como ativo de tesouraria seguro aumenta a capacidade de planejamento das empresas e melhora sua liberdade econômica. Além disso, cálculos de lucratividade baseados em \"bom\" dinheiro revelam alocações incorretas de recursos e, com a ajuda da taxa de juros do mercado, os custos de oportunidade se tornam claros. Os recursos fluirão para os setores econômicos com maior demanda do cliente, o que aumenta a produtividade e, assim, a prosperidade de todos. Para as empresas, o uso responsável de recursos escassos é recompensado e é a única maneira de sobreviver no mercado, já que não há resgates ou criação de crédito monetário. Como as pessoas tendem a gastar dinheiro mais lentamente devido aos benefícios da poupança, uma empresa deve prestar mais atenção à qualidade dos produtos e serviços para que as pessoas façam uma troca.",
+        "points": {
+          "1": "Dinheiro sólido como reservas",
+          "2": "Preços e cálculos de lucratividade estão ligados a uma constante",
+          "3": "Mais incentivos para que as empresas sejam produtivas e ofereçam qualidade"
+        }
+      },
+      "society": {
+        "headline": "Sociedade",
+        "text": "Se o indivíduo, capaz de aprender, percebe que há vantagens em ver o mundo de uma perspectiva deflacionária, uma sociedade composta por pessoas capazes de aprender se sincroniza com um dinheiro que tem uma oferta monetária constante. Isso leva automaticamente à separação do dinheiro e do Estado (ou de outra autoridade central). Isso também é chamado de ponto focal/ponto de Schelling. O que se quer dizer aqui é um equilíbrio que ocorre porque representa o ideal para cada indivíduo. Uma sociedade na qual poupar é lucrativo torna-se próspera no longo prazo porque mais é produzido do que é imediatamente consumido. Uma unidade de conta que não pode ser manipulada leva a cálculos econômicos que permitem a acumulação de capital e, portanto, a acumulação de riqueza para o indivíduo e, em suma, para toda a sociedade. Estruturas descentralizadas como famílias são fortalecidas porque podem construir sua própria riqueza e independência e não dependem mais das promessas de instituições centrais. A sociedade como um todo se torna menos frágil porque nem todos dependem da mesma autoridade central. O Bitcoin permite direitos de propriedade irrestritos devido à criptografia. Isso impede a redistribuição por uma autoridade central em benefício de poucos. Além disso, o Bitcoin permite a inclusão financeira de todas as pessoas porque é um sistema monetário aberto. Como resultado, todas as pessoas podem participar da sociedade baseada na divisão do trabalho e se beneficiar da cooperação, o que por sua vez beneficia a todos, já que cada um tem uma especialização. Em uma sociedade em que as empresas não recebem presentes monetários de políticos, elas devem lidar com seus recursos da forma mais sustentável possível e para o benefício dos clientes se quiserem sobreviver no mercado. A competição resultante é uma força reguladora que pune o desperdício de recursos, recompensa o planejamento de longo prazo e incentiva qualidade e produtividade. Isso cria uma sociedade sustentável e avançada que aumenta a prosperidade de todos.",
+        "points": {
+          "1": "Uma única unidade de conta como padrão global para cálculos econômicos",
+          "2": "Incentivos para poupar e acumular capital levam à prosperidade",
+          "3": "Inclusão financeira para todas as pessoas",
+          "4": "Concorrência como principal força reguladora",
+          "5": "Sustentabilidade e conservação de recursos por meio de menos consumo e direitos de propriedade"
+        }
+      }
+    }
+  },
+  "vision": {
+    "headline": "Nossa Visão",
+    "text": "O mundo está fora de controle e isso se deve ao sistema monetário inflacionário que afeta os incentivos das pessoas. A visão do FixYourMoney é acelerar a transição de uma sociedade inflacionária para uma deflacionária. Nós buscamos uma sociedade com um sistema monetário que sirva igualmente a todos e estabeleça incentivos de modo que os preços tendam a cair. Isso aumentará o padrão de vida de todos. Nosso objetivo é que cada preço, cada cálculo econômico, cada balanço, cada demonstração de lucros e perdas seja calculado em bom dinheiro. A regra de três traz cada pessoa de volta ao bom dinheiro, corrige os incentivos desalinhados e abre uma nova perspectiva sobre o mundo e nossa sociedade. \"Se as pessoas entendessem a regra de três, teríamos uma revolução antes de amanhã de manhã.\" #conserteseudinheiro #conserteseumundo"
+  },
+  "choose-calculation-unit": "Escolha sua unidade de conta",
+  "meta": {
+    "description": "O dinheiro precisa ser escasso, mas as moedas dos bancos centrais são inflacionárias e, portanto, buscamos um novo dinheiro. Conserte seu dinheiro, conserte seu mundo!"
+  }
+}

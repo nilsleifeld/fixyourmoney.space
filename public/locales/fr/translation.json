@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "headline-first": "Le Bitcoin est-il en hausse",
+    "headline-second": "ou la monnaie est-elle en chute",
+    "dollar-in-bitcoin": "Dollar en Bitcoin",
+    "bitcoin-in-dollar": "Bitcoin en Dollar",
+    "text": "Le prix du Bitcoin augmente presque chaque année, mais pourquoi ? Est-il possible que le Bitcoin monte indéfiniment ? Pourquoi les actions, les maisons et les biens de consommation voient-ils leurs prix augmenter ? Et qu’est-ce que l’argent ? Quelles sont les caractéristiques importantes et nécessaires de l’argent ? Pourquoi les prix augmentent-ils alors que nous travaillons, innovons et augmentons la productivité chaque jour ? Pourquoi n’apprenons-nous pas l’histoire de la monnaie et le fonctionnement de celle-ci dans notre système éducatif ? Pourquoi les mesures de longueur, de temps et de poids sont-elles fixées à des constantes naturelles, mais pas la mesure de nos prix ? Peu de personnes comprennent cela. Soyez l’un d’eux et découvrez le monde sous un nouveau jour. Réparez votre argent, réparez votre monde !"
+  },
+  "assets": {
+    "headline": "Tout va-t-il vers zéro mesuré en Bitcoin ?",
+    "subheading": "Actions & Actifs",
+    "text": "Dans un monde où les banques centrales manipulent les taux d’intérêt et augmentent la masse monétaire, il est logique de changer l’unité de compte. Tout comme les devises, nous pouvons aussi convertir les prix d'autres actifs selon la règle de trois. Nous découvrons que les actions, l’immobilier ou les indices mesurés en Bitcoin ou en or ont également tendance à baisser au fil des années. C’est un point crucial car, une fois que nous réalisons que nous pouvons choisir notre unité de compte, nous choisissons évidemment une unité dans laquelle les prix baissent grâce à la croissance de la productivité et aux innovations. Ainsi, nos économies prennent de la valeur avec le temps. L’épargne redevient sensée car les coûts d’opportunité deviennent évidents. Changez l’unité de compte dans le graphique pour voir les actions et les actifs sous un autre angle.",
+    "points": {
+      "1": "Chacun peut choisir sa propre monnaie et unité de compte selon la règle de trois",
+      "2": "Il est logique de choisir une monnaie où les prix sont stables ou diminuent",
+      "3": "L’épargne redevient judicieuse, car le pouvoir d’achat de l’épargne augmente"
+    }
+  },
+  "currencies": {
+    "headline": "Les monnaies actuelles sont-elles stables ?",
+    "subheading": "Devises",
+    "text": "Vous pensez peut-être que les prix du Bitcoin et de l’or augmentent, ou bien est-ce les devises des banques centrales qui chutent ? Les prix ne sont que des ratios d’échange et ce ratio change évidemment avec le temps. Nous avons besoin de plus en plus de dollars, d’euros ou de francs pour acheter une fraction de Bitcoin ou une once d’or. Inversement, nous obtenons de plus en plus de dollars, d’euros ou de francs pour notre Bitcoin ou notre or. Cela s’explique par le fait que les banques centrales augmentent l’offre de leurs devises chaque année et à chaque crise. De plus en plus de gens comprennent que les devises actuelles ne conservent pas leur valeur et se tournent donc vers des actifs rares comme le Bitcoin ou l’or. Changez l’unité de compte dans le graphique pour voir les devises sous un autre angle.",
+    "points": {
+      "1": "Un prix est simplement un ratio d’échange mesuré dans le passé",
+      "2": "Toutes les devises des banques centrales chutent par rapport aux actifs rares avec le temps"
+    }
+  },
+  "competition": {
+    "headline": "Qu’est-ce que l’argent pour vous ?",
+    "subheading": "Concurrence monétaire",
+    "text": "Nous avons découvert que les devises actuelles ne sont pas une bonne monnaie car l’offre monétaire est en expansion et les prix augmentent en conséquence. Mais vers quelle nouvelle monnaie devons-nous nous synchroniser ? Qui en décide et quels critères utilisons-nous pour choisir une bonne unité de compte ? Jusqu’à présent, nous n’avons examiné les prix que dans le passé, mais il existe également des caractéristiques qu’une bonne monnaie doit avoir selon la logique de l’action humaine.",
+    "functions-headline": "Quelles fonctions l’argent doit-il remplir ?",
+    "functions-text": "Nous utilisons l’argent pour faciliter notre vie commune par des échanges. Cela se traduit par trois fonctions principales de la monnaie : moyen d’échange, réserve de valeur et unité de compte. À partir de cela, on peut déduire les caractéristiques qu’une bonne monnaie doit posséder pour remplir ces fonctions.",
+    "functions": {
+      "1": {
+        "headline": "Rareté",
+        "text": "Pour que l’argent conserve une valeur égale entre le moment où nous le recevons et celui où nous le dépensons, l’offre monétaire doit être limitée. Une expansion de cette offre entraîne des effets de redistribution et de l’injustice."
+      },
+      "2": {
+        "headline": "Divisibilité",
+        "text": "Pour que nos échanges soient les plus efficaces possibles, la monnaie doit être facilement divisible."
+      },
+      "3": {
+        "headline": "Transportabilité",
+        "text": "Pour qu’un échange puisse avoir lieu, l’argent doit être transférable d’une personne à une autre dans l’espace."
+      },
+      "4": {
+        "headline": "Durabilité",
+        "text": "Pour que l’argent conserve sa valeur entre les échanges, il doit être durable et ne pas pourrir, rouiller ou s’altérer."
+      },
+      "5": {
+        "headline": "Homogénéité",
+        "text": "Toutes les unités monétaires doivent être aussi identiques que possible pour garantir des échanges fiables."
+      },
+      "6": {
+        "headline": "Vérifiabilité",
+        "text": "La capacité de vérifier l’authenticité est essentielle pour éviter que le partenaire d’échange ne soit dupé avec de la fausse monnaie."
+      },
+      "7": {
+        "headline": "Résistance à la censure",
+        "text": "La résistance à la censure garantit que toutes les règles sont établies et suivies de manière égale, sans modification pour des gains personnels."
+      }
+    },
+    "confrontations": {
+      "1": {
+        "first": "Objet physique",
+        "second": "Registre de données",
+        "statement": "L’argent peut être un objet physique unique comme une pièce d’or. Mais il peut aussi être une entrée numérique dans un registre centralisé. Tandis qu’une entrée de données peut être négative, un objet physique existe ou non."
+      },
+      "2": {
+        "first": "Matériel",
+        "second": "Logiciel",
+        "statement": "Le matériel ne peut être copié ou multiplié qu’à coût élevé. Le logiciel, en revanche, est une information facilement copiée à bas coût. L’information peut être envoyée sur Internet pour presque rien, tandis que le stockage ou l’expédition de matériel coûte cher."
+      },
+      "3": {
+        "first": "Jeton",
+        "second": "Grand livre",
+        "statement": "Le Bitcoin combine les caractéristiques des objets physiques, des registres de données, du matériel et des logiciels. L’historique des transactions est stocké sur un grand livre décentralisé avec des horodatages pour déterminer la dernière version. La propriété est définie par des clés numériques uniques détenues secrètement. Le logiciel se synchronise et le matériel peut être remplacé dans le réseau décentralisé redondant."
+      }
+    }
+  },
+  "candidates": {
+    "chart-headline": "Concurrence monétaire",
+    "headline": "Candidats pour une bonne monnaie en comparaison",
+    "text": "Nous constatons que l’or, mesuré en Bitcoin, a régulièrement perdu de la valeur ces dernières années. De même, le Bitcoin a considérablement gagné en valeur par rapport à l’or. Les calculs économiques ne sont valables que si nous utilisons une bonne monnaie comme unité de compte. C’est seulement ainsi que nous pouvons allouer efficacement les ressources, identifier les incitations à produire ce qui est le plus nécessaire et accroître la prospérité. Actuellement, ce n’est pas possible car les calculs économiques sont faussés par notre mauvaise monnaie. La monnaie n’est pas créée par une autorité centrale, mais par les actions et décisions quotidiennes des individus. Tout commence avec l’individu qui réfléchit à l’argent. C’est à chacun de choisir la perspective à partir de laquelle il observe les prix, et donc le monde. Quelle est votre monnaie ? Choisissez une bonne monnaie non seulement pour votre vie, mais pour notre société. Utilisez la règle de trois à votre avantage et réparez en même temps les mauvaises incitations dans notre société. Une meilleure monnaie pour un monde meilleur ! Réparez votre argent, réparez votre monde !",
+    "points": {
+      "1": "Cherchez une bonne monnaie",
+      "2": "Calculez les prix avec une bonne monnaie",
+      "3": "Épargnez une bonne monnaie",
+      "4": "Réalisez des calculs de rentabilité et économiques avec une bonne monnaie",
+      "5": "Étudiez la logique de l’action humaine !"
+    }
+  },
+  "impact": {
+    "headline": "Quel est l’impact d’une monnaie saine",
+    "subheading": "Impacts",
+    "text": "Chaque personne peut choisir sa propre unité de compte. Cela nous permet de considérer les prix sous un angle inflationniste ou déflationniste. De la même manière que les sciences naturelles ont lié le mètre, le kilogramme ou la seconde à des constantes naturelles, nous pouvons aussi mesurer les prix avec une constante : une masse monétaire fixe. Cela a des implications pour l’individu, les entreprises et la société dans son ensemble.",
+    "cards": {
+      "learn-more": "En savoir plus",
+      "individual": {
+        "headline": "Individu",
+        "text": "Les prix tendent à baisser à long terme grâce à l’innovation et à la productivité, donc épargner redevient rentable. L’individu peut mieux planifier l’avenir car ses économies ne perdent pas de pouvoir d’achat. Cela encourage une vision à long terme et réduit la consommation immédiate. Réaliser que l’unité de compte n’est pas imposée par une autorité centrale permet à l’individu de reprendre le contrôle. Il trouve une orientation et une sécurité grâce à son choix d’unité de compte. L’épargne crée de la richesse et permet de sortir de la pauvreté.",
+        "points": {
+          "1": "Les prix baissent à long terme grâce à l’innovation",
+          "2": "Épargner devient rentable",
+          "3": "Orientation à long terme accrue"
+        }
+      },
+      "companies": {
+        "headline": "Entreprises",
+        "text": "Un système monétaire déflationniste signifie que les profits n’ont pas besoin d’être réinvestis à risque et que les réserves ne perdent pas de valeur. L’argent « sain » comme actif de trésorerie permet aux entreprises de mieux planifier. Les calculs de rentabilité révèlent les gaspillages. Les ressources vont aux secteurs à forte demande. Cela améliore la productivité et la prospérité. Les entreprises doivent être efficaces et offrir de la qualité pour survivre sans aides publiques. Moins de consommation signifie plus de focus sur la qualité.",
+        "points": {
+          "1": "L’argent sain comme réserve",
+          "2": "Des calculs précis basés sur une constante",
+          "3": "Incitations à la productivité et à la qualité"
+        }
+      },
+      "society": {
+        "headline": "Société",
+        "text": "Quand les individus comprennent les avantages d’une perspective déflationniste, une société apprenante adopte une monnaie à masse monétaire constante. Cela entraîne une séparation entre la monnaie et l’État. Cette convergence est un point focal (Schelling point). Une société où l’épargne est valorisée devient prospère car elle produit plus qu’elle ne consomme. Une unité de compte inaltérable permet des calculs économiques sains et l’accumulation de richesse. Les familles deviennent indépendantes, les structures décentralisées sont renforcées, la société devient résiliente. Le Bitcoin permet des droits de propriété inviolables et l’inclusion financière mondiale, car il est ouvert à tous. Cela permet à chacun de participer à l’économie et à la société via la division du travail. Sans favoritisme politique, les entreprises doivent gérer efficacement leurs ressources, stimulant la durabilité, la qualité et la prospérité collective.",
+        "points": {
+          "1": "Une unité de compte globale pour les calculs économiques",
+          "2": "L’épargne et la construction du capital mènent à la prospérité",
+          "3": "Inclusion financière pour tous",
+          "4": "La concurrence comme régulateur majeur",
+          "5": "Durabilité grâce à une meilleure gestion des ressources et des droits de propriété"
+        }
+      }
+    }
+  },
+  "vision": {
+    "headline": "Notre vision",
+    "text": "Le monde est hors de contrôle à cause du système monétaire inflationniste qui déforme les incitations. La vision de FixYourMoney est d’accélérer la transition vers une société déflationniste. Nous visons un système monétaire équitable qui pousse les prix à baisser. Cela augmentera le niveau de vie pour tous. Nous voulons que chaque prix, chaque calcul économique, chaque bilan, chaque compte de résultat soit exprimé en bonne monnaie. La règle de trois reconnecte chacun à une monnaie saine, corrige les incitations faussées et offre un nouveau regard sur notre monde. « Si les gens comprenaient la règle de trois, nous aurions une révolution demain matin. » #fixyourmoney #fixyourworld"
+  },
+  "choose-calculation-unit": "Choisissez votre unité de compte",
+  "meta": {
+    "description": "L’argent doit être rare, mais les devises des banques centrales sont inflationnistes. Nous recherchons donc une nouvelle monnaie. Réparez votre argent, réparez votre monde !"
+  }
+}
