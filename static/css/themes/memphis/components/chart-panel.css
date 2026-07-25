@@ -16,6 +16,8 @@
 }
 
 .chart-panel__title {
+  flex: 1 1 auto;
+  min-width: 0;
   padding: calc(var(--spacing) * 3) calc(var(--spacing) * 4);
   font-family: var(--font-family-display);
   font-size: var(--font-size-lg);
@@ -24,13 +26,14 @@
 
 .chart-panel__tabs {
   display: flex;
+  flex-shrink: 0;
   flex-wrap: wrap;
   border-block-start: var(--border-width-thin) solid var(--color-border);
 }
 
 .chart-panel__tab {
   display: inline-flex;
-  flex: 1;
+  flex: 1 0 auto;
   align-items: center;
   justify-content: center;
   min-width: var(--target-size);
@@ -40,6 +43,7 @@
   color: var(--color-text-primary);
   font-weight: var(--font-weight-bold);
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .chart-panel__tab:hover,
