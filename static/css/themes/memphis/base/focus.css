@@ -1,0 +1,21 @@
+:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: calc(var(--spacing) * 1);
+  box-shadow: var(--focus-ring-shadow);
+}
+
+.skip-link {
+  position: fixed;
+  inset-block-start: calc(var(--spacing) * 2);
+  inset-inline-start: calc(var(--spacing) * 2);
+  z-index: var(--layer-skip);
+  padding: calc(var(--spacing) * 3) calc(var(--spacing) * 4);
+  color: var(--color-text-inverse);
+  background: var(--color-surface-inverse);
+  font-weight: var(--font-weight-bold);
+  transform: translateY(calc(var(--spacing) * -20));
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}

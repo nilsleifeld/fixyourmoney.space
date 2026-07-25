@@ -1,0 +1,19 @@
+.closing-message {
+  display: grid;
+  min-height: calc(var(--spacing) * 100);
+  place-items: center;
+  padding: var(--space-section) var(--space-inline);
+  border-block-end: var(--section-border);
+  background: var(--color-surface-inverse);
+}
+
+.closing-message__title {
+  max-width: var(--content-width);
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-display);
+  line-height: var(--line-height-tight);
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+  text-align: center;
+  text-wrap: balance;
+}

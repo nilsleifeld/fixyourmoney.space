@@ -1,0 +1,7 @@
+{
+  "title": "FixYourMoney",
+  "baseURL": "https://fixyourmoney.space",
+  "twitterCreator": "@lemalive",
+  "defaultLocale": "en",
+  "locales": ["en", "de", "ar", "cs", "es", "fr", "hi", "it", "ja", "ko", "pl", "pt", "ru", "tr"]
+}

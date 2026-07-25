@@ -1,0 +1,78 @@
+.hero__title,
+.section-heading__title,
+.money-card__title,
+.impact-card__title,
+.closing-message__title {
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+}
+
+.hero {
+  margin: calc(var(--spacing) * 3);
+  min-height: calc(100svh - var(--header-height) - calc(var(--spacing) * 6));
+  border: var(--section-border);
+}
+
+.hero::before {
+  position: absolute;
+  inset-block-start: calc(var(--spacing) * 6);
+  inset-inline-end: calc(var(--spacing) * 6);
+  z-index: var(--layer-raised);
+  display: grid;
+  width: calc(var(--spacing) * 18);
+  height: calc(var(--spacing) * 18);
+  border: var(--border-width-strong) solid var(--color-border);
+  border-radius: 50%;
+  place-items: center;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-offset-small) var(--color-border);
+  content: "₿";
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  pointer-events: none;
+  transform: rotate(var(--angle-tilt-positive));
+}
+
+.hero__eyebrow {
+  display: inline-block;
+  padding: calc(var(--spacing) * 2);
+  border: var(--border-width-strong) solid var(--color-border);
+  background: var(--color-surface);
+  transform: rotate(var(--angle-tilt-negative));
+}
+
+.section-heading__eyebrow {
+  padding-inline-start: calc(var(--spacing) * 3);
+  border-inline-start: var(--border-width-strong) solid var(--color-primary);
+  color: var(--color-text-primary);
+  text-transform: uppercase;
+}
+
+.section-heading__eyebrow--inverse {
+  color: var(--color-primary);
+}
+
+.money-card--tilt-left {
+  transform: rotate(var(--angle-tilt-negative));
+}
+
+.money-card--tilt-right {
+  transform: rotate(var(--angle-tilt-positive));
+}
+
+.comparison__versus {
+  color: var(--color-text-primary);
+  background: var(--color-primary);
+  transform: rotate(var(--angle-tilt-positive));
+}
+
+.closing-message {
+  color: var(--color-text-inverse);
+  background: var(--color-surface-inverse);
+}
+
+.closing-message__title {
+  text-shadow: var(--shadow-offset-large) var(--color-primary);
+}

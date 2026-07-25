@@ -1,0 +1,39 @@
+{{ define "site-header" -}}
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__brand" href="{{ url "" }}" aria-label="{{ .Site.Title }} — {{ t "nav.home" }}"><span class="site-header__brand-mark" aria-hidden="true">₿</span>{{ .Site.Title }}</a>
+    <div class="language-switcher">
+      <button class="language-switcher__trigger" type="button" data-dialog-open="language-dialog" hidden aria-haspopup="dialog" aria-label="{{ t "nav.languages" }}">
+        <span class="language-switcher__flag" aria-hidden="true">{{ languageFlag .Locale }}</span><span class="language-switcher__label">{{ languageName .Locale }}</span>
+      </button>
+      <details class="language-switcher__fallback" data-dialog-fallback>
+        <summary class="language-switcher__summary" aria-label="{{ t "nav.languages" }}">
+          <span class="language-switcher__flag" aria-hidden="true">{{ languageFlag .Locale }}</span><span class="language-switcher__label">{{ languageName .Locale }}</span>
+        </summary>
+        <ul class="language-switcher__list">
+          {{- range .Locales }}
+          <li class="language-switcher__item">
+            <a class="language-switcher__link" href="{{ languageURL . }}" lang="{{ . }}"{{ if eq . $.Locale }} aria-current="page"{{ end }}><span class="language-switcher__flag" aria-hidden="true">{{ languageFlag . }}</span><span class="language-switcher__label">{{ languageName . }}</span></a>
+          </li>
+          {{- end }}
+        </ul>
+      </details>
+    </div>
+  </div>
+</header>
+<dialog class="language-dialog" id="language-dialog" data-language-dialog aria-labelledby="language-dialog-title">
+  <div class="language-dialog__surface">
+    <header class="language-dialog__header">
+      <h2 class="language-dialog__title" id="language-dialog-title">{{ t "nav.languages" }}</h2>
+      <button class="button button--icon language-dialog__close" type="button" data-dialog-close aria-label="{{ t "nav.languages-close" }}">×</button>
+    </header>
+    <ul class="language-dialog__grid">
+      {{- range .Locales }}
+      <li class="language-dialog__item">
+        <a class="language-dialog__link" href="{{ languageURL . }}" lang="{{ . }}"{{ if eq . $.Locale }} aria-current="page"{{ end }}><span class="language-dialog__flag" aria-hidden="true">{{ languageFlag . }}</span><span class="language-dialog__name">{{ languageName . }}</span></a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</dialog>
+{{- end }}

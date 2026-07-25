@@ -1,0 +1,55 @@
+.impact-dialog,
+.consent-dialog,
+.language-dialog {
+  opacity: 0;
+  translate: 0 var(--dialog-enter-distance);
+  scale: var(--dialog-enter-scale);
+  transition:
+    opacity var(--duration-normal) var(--easing-reveal),
+    translate var(--duration-normal) var(--easing-reveal),
+    scale var(--duration-normal) var(--easing-reveal),
+    overlay var(--duration-normal) var(--easing-reveal) allow-discrete,
+    display var(--duration-normal) var(--easing-reveal) allow-discrete;
+}
+
+.impact-dialog[open],
+.consent-dialog[open],
+.language-dialog[open] {
+  opacity: 1;
+  translate: 0 0;
+  scale: 1;
+}
+
+@starting-style {
+  .impact-dialog[open],
+  .consent-dialog[open],
+  .language-dialog[open] {
+    opacity: 0;
+    translate: 0 var(--dialog-enter-distance);
+    scale: var(--dialog-enter-scale);
+  }
+}
+
+.impact-dialog::backdrop,
+.consent-dialog::backdrop,
+.language-dialog::backdrop {
+  background-color: transparent;
+  transition:
+    background-color var(--duration-normal) var(--easing-direct),
+    overlay var(--duration-normal) var(--easing-direct) allow-discrete,
+    display var(--duration-normal) var(--easing-direct) allow-discrete;
+}
+
+.impact-dialog[open]::backdrop,
+.consent-dialog[open]::backdrop,
+.language-dialog[open]::backdrop {
+  background-color: var(--dialog-backdrop);
+}
+
+@starting-style {
+  .impact-dialog[open]::backdrop,
+  .consent-dialog[open]::backdrop,
+  .language-dialog[open]::backdrop {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,13 @@
+{{ define "site-footer" -}}
+<footer class="site-footer">
+  <div class="site-footer__identity">
+    <p class="site-footer__brand">{{ .Site.Title }}</p>
+    <p class="site-footer__credit">{{ t "footer.made-by" }} <a class="site-footer__link site-footer__link--credit" href="https://twitter.com/lemalive" rel="me noopener">Leo</a> &amp; <a class="site-footer__link site-footer__link--credit" href="https://github.com/nilsleifeld" rel="me noopener">Nils</a></p>
+  </div>
+  <nav class="site-footer__navigation" aria-label="{{ t "footer.navigation" }}">
+    <a class="site-footer__link site-footer__link--navigation" href="https://leo-mattes.com/impressum/" rel="noopener">{{ t "footer.imprint" }}</a>
+    <a class="site-footer__link site-footer__link--navigation" href="{{ url "datenschutz" }}">{{ t "footer.privacy" }}</a>
+    <button class="site-footer__button" type="button" data-consent-open hidden>{{ t "footer.consent" }}</button>
+  </nav>
+</footer>
+{{- end }}

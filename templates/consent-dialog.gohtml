@@ -1,0 +1,33 @@
+{{ define "consent-dialog" -}}
+<dialog class="consent-dialog" data-consent-dialog aria-labelledby="consent-title">
+  <div class="consent-dialog__surface">
+    <header class="consent-dialog__header">
+      <h2 class="consent-dialog__title" id="consent-title">{{ t "consent.title" }}</h2>
+      <button class="consent-dialog__close button button--icon" type="button" data-consent-close aria-label="{{ t "consent.close" }}">×</button>
+    </header>
+    <p class="consent-dialog__description">{{ t "consent.description" }}</p>
+    <div class="consent-dialog__categories">
+      <label class="consent-dialog__category">
+        <input class="consent-dialog__checkbox" type="checkbox" checked disabled>
+        <span class="consent-dialog__category-copy">
+          <strong class="consent-dialog__category-title">{{ t "consent.necessary-title" }}</strong>
+          <span class="consent-dialog__category-description">{{ t "consent.necessary-description" }}</span>
+        </span>
+      </label>
+      <label class="consent-dialog__category">
+        <input class="consent-dialog__checkbox" type="checkbox" name="externalMedia" data-consent-category="externalMedia">
+        <span class="consent-dialog__category-copy">
+          <strong class="consent-dialog__category-title">{{ t "consent.external-title" }}</strong>
+          <span class="consent-dialog__category-description">{{ t "consent.external-description" }}</span>
+        </span>
+      </label>
+    </div>
+    <p class="consent-dialog__expiry">{{ t "consent.expiry" }} <a class="consent-dialog__link" href="{{ url "datenschutz" }}">{{ t "footer.privacy" }}</a></p>
+    <div class="consent-dialog__actions">
+      <button class="button button--primary" type="button" data-consent-action="all">{{ t "consent.accept-all" }}</button>
+      <button class="button button--secondary" type="button" data-consent-action="selection">{{ t "consent.save" }}</button>
+      <button class="button button--secondary" type="button" data-consent-action="reject">{{ t "consent.reject" }}</button>
+    </div>
+  </div>
+</dialog>
+{{- end }}

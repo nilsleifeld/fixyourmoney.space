@@ -1,0 +1,286 @@
+{{ define "page-title" }}{{ t "meta.home-title" }}{{ end }}
+{{ define "page-description" }}{{ t "meta.description" }}{{ end }}
+{{ define "content" -}}
+<section class="hero" id="hero" data-track-section data-hero data-chart-group data-chart-locale="{{ .Locale }}">
+  <div class="hero__copy">
+    <p class="hero__eyebrow">{{ t "hero.eyebrow" }}</p>
+    <h1 class="hero__title">
+      <span class="hero__perspective hero__perspective--active" data-hero-perspective="first">{{ t "hero.headline-first" }}?</span>
+      <span class="hero__perspective" data-hero-perspective="second" aria-hidden="true">{{ t "hero.headline-second" }}?</span>
+    </h1>
+    <div class="hero__action">
+      <button class="button button--primary hero__toggle" type="button" data-hero-toggle aria-pressed="false" hidden>
+        <span class="hero__toggle-label" data-hero-label-first>{{ t "hero.bitcoin-in-dollar" }}</span>
+        <span class="hero__toggle-label" data-hero-label-second hidden>{{ t "hero.dollar-in-bitcoin" }}</span>
+      </button>
+      <p class="hero__cue" aria-hidden="true">
+        <svg class="hero__cue-arrow" xmlns="http://www.w3.org/2000/svg" width="27" height="49" viewBox="0 0 27 49" fill="none" focusable="false">
+          <path d="M7.36395 47.4999L6.36395 47.4999L6.36395 48.4999L7.36395 48.4999L7.36395 47.4999ZM8.07106 0.292911C7.68053 -0.0976128 7.04737 -0.0976129 6.65685 0.292911L0.292883 6.65687C-0.0976411 7.0474 -0.0976414 7.68056 0.292884 8.07109C0.683408 8.46161 1.31657 8.46161 1.7071 8.07109L7.36395 2.41423L13.0208 8.07109C13.4113 8.46161 14.0445 8.46161 14.435 8.07109C14.8255 7.68056 14.8255 7.0474 14.435 6.65687L8.07106 0.292911ZM26.3639 47.4999L26.3639 46.4999L7.36395 46.4999L7.36395 47.4999L7.36395 48.4999L26.3639 48.4999L26.3639 47.4999ZM7.36395 47.4999L8.36395 47.4999L8.36395 1.00002L7.36395 1.00002L6.36395 1.00002L6.36395 47.4999L7.36395 47.4999Z" fill="currentColor"/>
+        </svg>
+        <span class="hero__cue-label">{{ t "hero.cue" }}</span>
+      </p>
+    </div>
+  </div>
+  <div class="hero__charts" aria-label="{{ t "hero.chart-fallback" }}">
+    <article
+      class="hero__chart hero__chart--first hero__chart--active"
+      data-hero-chart="first"
+      data-chart-panel
+      data-chart-key="hero-bitcoin-in-dollar"
+      data-status-opt-in="{{ t "chart.opt-in" }}"
+      data-status-loading="{{ t "chart.loading" }}"
+      data-status-error="{{ t "chart.error" }}"
+      data-status-no-data="{{ t "chart.no-data" }}"
+      aria-label="{{ t "hero.bitcoin-in-dollar" }}"
+    >
+      <div class="hero__chart-mount" data-chart-mount></div>
+      <p class="hero__chart-status" data-chart-status>{{ t "hero.chart-fallback" }}</p>
+      <button class="button button--secondary hero__chart-consent" type="button" data-consent-open hidden>{{ t "chart.allow" }}</button>
+    </article>
+    <article
+      class="hero__chart hero__chart--second"
+      data-hero-chart="second"
+      data-chart-panel
+      data-chart-key="hero-dollar-in-bitcoin"
+      data-status-opt-in="{{ t "chart.opt-in" }}"
+      data-status-loading="{{ t "chart.loading" }}"
+      data-status-error="{{ t "chart.error" }}"
+      data-status-no-data="{{ t "chart.no-data" }}"
+      aria-label="{{ t "hero.dollar-in-bitcoin" }}"
+      aria-hidden="true"
+      inert
+    >
+      <div class="hero__chart-mount" data-chart-mount></div>
+      <p class="hero__chart-status" data-chart-status>{{ t "hero.chart-fallback" }}</p>
+      <button class="button button--secondary hero__chart-consent" type="button" data-consent-open hidden>{{ t "chart.allow" }}</button>
+    </article>
+    <a class="hero__chart-provider" href="https://www.tradingview.com/" rel="noopener noreferrer">{{ t "chart.provider" }}</a>
+  </div>
+  <a class="hero__scroll" href="#introduction">
+    <span class="hero__scroll-label">{{ t "hero.learn-more" }}</span>
+    <svg class="hero__scroll-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+      <path d="M12 4v14M5 13l7 7 7-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter"/>
+    </svg>
+  </a>
+</section>
+
+<section class="content-section content-section--intro" id="introduction" data-track-section aria-labelledby="introduction-title">
+  <div class="content-section__inner">
+    <h2 class="visually-hidden" id="introduction-title">{{ t "introduction.title" }}</h2>
+    <p class="content-section__lead">{{ t "hero.text" }}</p>
+  </div>
+</section>
+
+<section class="content-section" id="assets" data-track-section aria-labelledby="assets-title">
+  <div class="content-section__inner">
+    <header class="section-heading">
+      <p class="section-heading__eyebrow">{{ t "assets.subheading" }}</p>
+      <h2 class="section-heading__title" id="assets-title">{{ t "assets.headline" }}</h2>
+    </header>
+    {{ template "assets-chart" . }}
+    <p class="content-section__text">{{ t "assets.text" }}</p>
+    <ul class="point-list">
+      <li class="point-list__item point-list__item--from-left">{{ t "assets.points.1" }}</li>
+      <li class="point-list__item point-list__item--from-right">{{ t "assets.points.2" }}</li>
+      <li class="point-list__item point-list__item--from-left">{{ t "assets.points.3" }}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="content-section content-section--accent" id="currencies" data-track-section aria-labelledby="currencies-title">
+  <div class="content-section__inner">
+    <header class="section-heading">
+      <p class="section-heading__eyebrow">{{ t "currencies.subheading" }}</p>
+      <h2 class="section-heading__title" id="currencies-title">{{ t "currencies.headline" }}</h2>
+    </header>
+    {{ template "currencies-chart" . }}
+    <p class="content-section__text">{{ t "currencies.text" }}</p>
+    <ul class="point-list">
+      <li class="point-list__item point-list__item--from-left">{{ t "currencies.points.1" }}</li>
+      <li class="point-list__item point-list__item--from-right">{{ t "currencies.points.2" }}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="content-section" id="competition" data-track-section aria-labelledby="competition-title">
+  <div class="content-section__inner">
+    <header class="section-heading">
+      <p class="section-heading__eyebrow">{{ t "competition.subheading" }}</p>
+      <h2 class="section-heading__title" id="competition-title">{{ t "competition.headline" }}</h2>
+    </header>
+    <p class="content-section__text">{{ t "competition.text" }}</p>
+    <h3 class="content-section__subtitle">{{ t "competition.functions-headline" }}</h3>
+    <p class="content-section__text">{{ t "competition.functions-text" }}</p>
+    <div class="money-card-list">
+      <article class="money-card money-card--tilt-left">
+        <span class="money-card__icon" aria-hidden="true">💎</span>
+        <h3 class="money-card__title">{{ t "competition.functions.1.headline" }}</h3>
+        <p class="money-card__text">{{ t "competition.functions.1.text" }}</p>
+      </article>
+      <article class="money-card money-card--tilt-right">
+        <span class="money-card__icon" aria-hidden="true">✅</span>
+        <h3 class="money-card__title">{{ t "competition.functions.2.headline" }}</h3>
+        <p class="money-card__text">{{ t "competition.functions.2.text" }}</p>
+      </article>
+      <article class="money-card money-card--tilt-left">
+        <span class="money-card__icon" aria-hidden="true">🚚</span>
+        <h3 class="money-card__title">{{ t "competition.functions.3.headline" }}</h3>
+        <p class="money-card__text">{{ t "competition.functions.3.text" }}</p>
+      </article>
+      <article class="money-card money-card--tilt-right">
+        <span class="money-card__icon" aria-hidden="true">⏳</span>
+        <h3 class="money-card__title">{{ t "competition.functions.4.headline" }}</h3>
+        <p class="money-card__text">{{ t "competition.functions.4.text" }}</p>
+      </article>
+      <article class="money-card money-card--tilt-left">
+        <span class="money-card__icon" aria-hidden="true">📋</span>
+        <h3 class="money-card__title">{{ t "competition.functions.5.headline" }}</h3>
+        <p class="money-card__text">{{ t "competition.functions.5.text" }}</p>
+      </article>
+      <article class="money-card money-card--tilt-right">
+        <span class="money-card__icon" aria-hidden="true">🔍</span>
+        <h3 class="money-card__title">{{ t "competition.functions.6.headline" }}</h3>
+        <p class="money-card__text">{{ t "competition.functions.6.text" }}</p>
+      </article>
+      <article class="money-card money-card--tilt-left">
+        <span class="money-card__icon" aria-hidden="true">⚠️</span>
+        <h3 class="money-card__title">{{ t "competition.functions.7.headline" }}</h3>
+        <p class="money-card__text">{{ t "competition.functions.7.text" }}</p>
+      </article>
+    </div>
+    <div class="comparison-list">
+      <details class="comparison comparison--from-left">
+        <summary class="comparison__summary">
+          <span class="comparison__side">{{ t "competition.confrontations.1.first" }}</span>
+          <span class="comparison__versus">VS</span>
+          <span class="comparison__side">{{ t "competition.confrontations.1.second" }}</span>
+        </summary>
+        <p class="comparison__text">{{ t "competition.confrontations.1.statement" }}</p>
+      </details>
+      <details class="comparison comparison--from-right">
+        <summary class="comparison__summary">
+          <span class="comparison__side">{{ t "competition.confrontations.2.first" }}</span>
+          <span class="comparison__versus">VS</span>
+          <span class="comparison__side">{{ t "competition.confrontations.2.second" }}</span>
+        </summary>
+        <p class="comparison__text">{{ t "competition.confrontations.2.statement" }}</p>
+      </details>
+      <details class="comparison comparison--from-left">
+        <summary class="comparison__summary">
+          <span class="comparison__side">{{ t "competition.confrontations.3.first" }}</span>
+          <span class="comparison__versus">VS</span>
+          <span class="comparison__side">{{ t "competition.confrontations.3.second" }}</span>
+        </summary>
+        <p class="comparison__text">{{ t "competition.confrontations.3.statement" }}</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="content-section content-section--dark" id="candidates" data-track-section aria-labelledby="candidates-title">
+  <div class="content-section__inner">
+    <header class="section-heading section-heading--inverse">
+      <p class="section-heading__eyebrow section-heading__eyebrow--inverse">{{ t "candidates.chart-headline" }}</p>
+      <h2 class="section-heading__title" id="candidates-title">{{ t "candidates.headline" }}</h2>
+    </header>
+    {{ template "candidates-chart" . }}
+    <p class="content-section__text">{{ t "candidates.text" }}</p>
+    <ul class="point-list point-list--inverse">
+      <li class="point-list__item point-list__item--from-left">{{ t "candidates.points.1" }}</li>
+      <li class="point-list__item point-list__item--from-right">{{ t "candidates.points.2" }}</li>
+      <li class="point-list__item point-list__item--from-left">{{ t "candidates.points.3" }}</li>
+      <li class="point-list__item point-list__item--from-right">{{ t "candidates.points.4" }}</li>
+      <li class="point-list__item point-list__item--from-left">{{ t "candidates.points.5" }}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="content-section content-section--accent" id="impact" data-track-section aria-labelledby="impact-title">
+  <div class="content-section__inner">
+    <header class="section-heading">
+      <p class="section-heading__eyebrow">{{ t "impact.subheading" }}</p>
+      <h2 class="section-heading__title" id="impact-title">{{ t "impact.headline" }}</h2>
+    </header>
+    <p class="content-section__text">{{ t "impact.text" }}</p>
+    <div class="impact-card-list">
+      <article class="impact-card impact-card--from-left">
+        <span class="impact-card__icon" aria-hidden="true">👤</span>
+        <h3 class="impact-card__title">{{ t "impact.cards.individual.headline" }}</h3>
+        <ul class="impact-card__points">
+          <li class="impact-card__point">{{ t "impact.cards.individual.points.1" }}</li>
+          <li class="impact-card__point">{{ t "impact.cards.individual.points.2" }}</li>
+          <li class="impact-card__point">{{ t "impact.cards.individual.points.3" }}</li>
+        </ul>
+        <button class="button button--text impact-card__open" type="button" data-dialog-open="impact-individual" hidden>{{ t "impact.cards.learn-more" }} →</button>
+        <details class="impact-card__fallback" data-dialog-fallback>
+          <summary class="impact-card__summary">{{ t "impact.cards.learn-more" }}</summary>
+          <p class="impact-card__detail">{{ t "impact.cards.individual.text" }}</p>
+        </details>
+      </article>
+      <article class="impact-card impact-card--from-right">
+        <span class="impact-card__icon" aria-hidden="true">🏢</span>
+        <h3 class="impact-card__title">{{ t "impact.cards.companies.headline" }}</h3>
+        <ul class="impact-card__points">
+          <li class="impact-card__point">{{ t "impact.cards.companies.points.1" }}</li>
+          <li class="impact-card__point">{{ t "impact.cards.companies.points.2" }}</li>
+          <li class="impact-card__point">{{ t "impact.cards.companies.points.3" }}</li>
+        </ul>
+        <button class="button button--text impact-card__open" type="button" data-dialog-open="impact-companies" hidden>{{ t "impact.cards.learn-more" }} →</button>
+        <details class="impact-card__fallback" data-dialog-fallback>
+          <summary class="impact-card__summary">{{ t "impact.cards.learn-more" }}</summary>
+          <p class="impact-card__detail">{{ t "impact.cards.companies.text" }}</p>
+        </details>
+      </article>
+      <article class="impact-card impact-card--featured impact-card--from-bottom">
+        <span class="impact-card__icon" aria-hidden="true">👥</span>
+        <h3 class="impact-card__title">{{ t "impact.cards.society.headline" }}</h3>
+        <ul class="impact-card__points">
+          <li class="impact-card__point">{{ t "impact.cards.society.points.1" }}</li>
+          <li class="impact-card__point">{{ t "impact.cards.society.points.2" }}</li>
+          <li class="impact-card__point">{{ t "impact.cards.society.points.3" }}</li>
+          <li class="impact-card__point">{{ t "impact.cards.society.points.4" }}</li>
+          <li class="impact-card__point">{{ t "impact.cards.society.points.5" }}</li>
+        </ul>
+        <button class="button button--text impact-card__open" type="button" data-dialog-open="impact-society" hidden>{{ t "impact.cards.learn-more" }} →</button>
+        <details class="impact-card__fallback" data-dialog-fallback>
+          <summary class="impact-card__summary">{{ t "impact.cards.learn-more" }}</summary>
+          <p class="impact-card__detail">{{ t "impact.cards.society.text" }}</p>
+        </details>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="closing-message" id="closing" data-track-section aria-labelledby="closing-title">
+  <h2 class="closing-message__title" id="closing-title">{{ t "closing.message" }}</h2>
+</section>
+
+<dialog class="impact-dialog" id="impact-individual" data-impact-dialog aria-labelledby="impact-individual-title">
+  <div class="impact-dialog__surface">
+    <header class="impact-dialog__header">
+      <h2 class="impact-dialog__title" id="impact-individual-title">{{ t "impact.cards.individual.headline" }}</h2>
+      <button class="button button--icon impact-dialog__close" type="button" data-dialog-close aria-label="{{ t "impact.close" }}">×</button>
+    </header>
+    <p class="impact-dialog__text">{{ t "impact.cards.individual.text" }}</p>
+  </div>
+</dialog>
+<dialog class="impact-dialog" id="impact-companies" data-impact-dialog aria-labelledby="impact-companies-title">
+  <div class="impact-dialog__surface">
+    <header class="impact-dialog__header">
+      <h2 class="impact-dialog__title" id="impact-companies-title">{{ t "impact.cards.companies.headline" }}</h2>
+      <button class="button button--icon impact-dialog__close" type="button" data-dialog-close aria-label="{{ t "impact.close" }}">×</button>
+    </header>
+    <p class="impact-dialog__text">{{ t "impact.cards.companies.text" }}</p>
+  </div>
+</dialog>
+<dialog class="impact-dialog" id="impact-society" data-impact-dialog aria-labelledby="impact-society-title">
+  <div class="impact-dialog__surface">
+    <header class="impact-dialog__header">
+      <h2 class="impact-dialog__title" id="impact-society-title">{{ t "impact.cards.society.headline" }}</h2>
+      <button class="button button--icon impact-dialog__close" type="button" data-dialog-close aria-label="{{ t "impact.close" }}">×</button>
+    </header>
+    <p class="impact-dialog__text">{{ t "impact.cards.society.text" }}</p>
+  </div>
+</dialog>
+{{- end }}
+{{ template "layout" . }}

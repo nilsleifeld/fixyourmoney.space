@@ -1,0 +1,12 @@
+.site-shell {
+  margin: 0;
+  color: var(--color-text-primary);
+  background: var(--color-page-background);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-body);
+}
+
+.site-shell__main {
+  overflow: clip;
+}

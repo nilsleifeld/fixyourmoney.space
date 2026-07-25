@@ -1,0 +1,76 @@
+.language-switcher {
+  position: relative;
+}
+
+.language-switcher__trigger,
+.language-switcher__summary {
+  display: inline-flex;
+  align-items: center;
+  gap: calc(var(--spacing) * 2);
+  min-height: var(--target-size);
+  padding-inline: calc(var(--spacing) * 3);
+  border: var(--border-width-strong) solid var(--color-border);
+  border-radius: var(--radius-small);
+  color: var(--color-text-primary);
+  background: var(--color-surface);
+  box-shadow: var(--button-shadow);
+  font-weight: var(--font-weight-bold);
+  list-style: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform var(--duration-fast) var(--easing-direct), box-shadow var(--duration-fast) var(--easing-direct);
+}
+
+.language-switcher__trigger:hover,
+.language-switcher__summary:hover {
+  transform: translate(calc(var(--spacing) * 1), calc(var(--spacing) * 1));
+  box-shadow: none;
+}
+
+.language-switcher__summary::-webkit-details-marker {
+  display: none;
+}
+
+.language-switcher__flag {
+  font-size: var(--font-size-lg);
+  line-height: 1;
+}
+
+.language-switcher__list {
+  position: absolute;
+  inset-block-start: calc(100% + calc(var(--spacing) * 2));
+  inset-inline-end: 0;
+  z-index: var(--layer-menu);
+  width: max-content;
+  min-width: calc(var(--spacing) * 44);
+  max-width: calc(100vw - calc(var(--spacing) * 8));
+  max-block-size: calc(100dvh - var(--header-height) - calc(var(--spacing) * 6));
+  overflow: auto;
+  overscroll-behavior-block: contain;
+  border: var(--border-width-strong) solid var(--color-border);
+  border-radius: var(--radius-small);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-offset-small) var(--color-border);
+  list-style: none;
+}
+
+.language-switcher__item {
+  border-block-end: var(--border-width-thin) solid var(--color-border);
+}
+
+.language-switcher__link {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--spacing) * 2);
+  min-height: var(--target-size);
+  padding-inline: calc(var(--spacing) * 3);
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-bold);
+  text-decoration: none;
+}
+
+.language-switcher__link:hover,
+.language-switcher__link[aria-current="page"] {
+  color: var(--color-text-inverse);
+  background: var(--color-surface-inverse);
+}

@@ -1,0 +1,72 @@
+{{ define "layout" -}}
+<!doctype html>
+<html lang="{{ .Locale }}" dir="{{ textDirection }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ template "page-title" . }}</title>
+  <meta name="description" content="{{ template "page-description" . }}">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="{{ canonicalURL }}">
+  {{- if eq .Page.Route "" }}
+  <link rel="alternate" type="text/markdown" href="{{ markdownURL }}">
+  {{- end }}
+  {{- range .Locales }}
+  <link rel="alternate" hreflang="{{ . }}" href="{{ languageCanonicalURL . }}">
+  {{- end }}
+  <link rel="alternate" hreflang="x-default" href="{{ languageCanonicalURL .Site.DefaultLocale }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ canonicalURL }}">
+  <meta property="og:title" content="{{ template "page-title" . }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:description" content="{{ template "page-description" . }}">
+  <meta property="og:image" content="{{ asset "img/social-preview.jpg" }}">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ template "page-title" . }}">
+  <meta property="og:locale" content="{{ openGraphLocale .Locale }}">
+  {{- range .Locales }}
+  {{- if ne . $.Locale }}
+  <meta property="og:locale:alternate" content="{{ openGraphLocale . }}">
+  {{- end }}
+  {{- end }}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="{{ .Site.TwitterCreator }}">
+  <meta name="twitter:title" content="{{ template "page-title" . }}">
+  <meta name="twitter:description" content="{{ template "page-description" . }}">
+  <meta name="twitter:image" content="{{ asset "img/social-preview.jpg" }}">
+  <meta name="twitter:image:alt" content="{{ template "page-title" . }}">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "{{ template "page-title" . }}",
+      "description": "{{ template "page-description" . }}",
+      "url": "{{ canonicalURL }}",
+      "inLanguage": "{{ .Locale }}",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "{{ .Site.Title }}",
+        "url": "{{ siteCanonicalURL }}",
+        "inLanguage": "{{ .Locale }}"
+      }
+    }
+  </script>
+  <link rel="icon" type="image/svg+xml" href="{{ asset "favicon.svg" }}">
+  <link rel="stylesheet" href="{{ asset "css/site.css" }}">
+  <script defer data-domain="fixyourmoney.space" src="https://plausible.nilsleifeld.de/js/script.outbound-links.pageview-props.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <script type="module" src="{{ asset "js/site.js" }}"></script>
+</head>
+<body class="site-shell">
+  <a class="skip-link" href="#main-content">{{ t "nav.skip" }}</a>
+  {{ template "site-header" . }}
+  <main class="site-shell__main" id="main-content">
+    {{ template "content" . }}
+  </main>
+  {{ template "site-footer" . }}
+  {{ template "consent-dialog" . }}
+</body>
+</html>
+{{- end }}

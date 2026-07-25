@@ -1,0 +1,30 @@
+.point-list {
+  display: grid;
+  gap: calc(var(--spacing) * 4);
+  list-style: none;
+}
+
+.point-list__item {
+  padding: calc(var(--spacing) * 4);
+  border: var(--section-border);
+  border-radius: var(--radius-small);
+  background: var(--card-background);
+  box-shadow: var(--shadow-offset-small) var(--color-border);
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+.point-list__item::before {
+  content: "✅";
+  margin-inline-end: calc(var(--spacing) * 2);
+}
+
+.point-list--inverse {
+  color: var(--color-text-primary);
+}
+
+@media (min-width: 48rem) {
+  .point-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

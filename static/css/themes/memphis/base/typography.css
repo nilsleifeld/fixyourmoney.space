@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../../../fonts/baloo-2-v16-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../../../../fonts/baloo-2-v16-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../../../fonts/maven-pro-v32-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../../../../fonts/maven-pro-v32-latin-700.woff2") format("woff2");
+}

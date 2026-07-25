@@ -1,0 +1,174 @@
+{{ define "assets-chart" -}}
+<section class="chart-panel" data-tabs data-chart-group data-chart-locale="{{ .Locale }}" aria-labelledby="assets-chart-title">
+  <header class="chart-panel__header">
+    <h3 class="chart-panel__title" id="assets-chart-title">{{ t "choose-calculation-unit" }}</h3>
+    <div class="chart-panel__tabs" role="tablist" aria-label="{{ t "chart.tablist-label" }}">
+      <a class="chart-panel__tab" id="assets-tab-dollar" href="#assets-panel-dollar" role="tab" aria-selected="true" aria-controls="assets-panel-dollar">{{ t "chart.dollar" }}</a>
+      <a class="chart-panel__tab" id="assets-tab-gold" href="#assets-panel-gold" role="tab" aria-selected="false" aria-controls="assets-panel-gold" tabindex="-1">{{ t "chart.gold" }}</a>
+      <a class="chart-panel__tab" id="assets-tab-bitcoin" href="#assets-panel-bitcoin" role="tab" aria-selected="false" aria-controls="assets-panel-bitcoin" tabindex="-1">{{ t "chart.bitcoin" }}</a>
+    </div>
+  </header>
+  <div class="chart-panel__body">
+    <article
+      class="chart-panel__panel"
+      id="assets-panel-dollar"
+      role="tabpanel"
+      aria-labelledby="assets-tab-dollar"
+      data-chart-panel
+      data-chart-key="assets-dollar"
+      data-status-opt-in="{{ t "chart.opt-in" }}"
+      data-status-loading="{{ t "chart.loading" }}"
+      data-status-error="{{ t "chart.error" }}"
+      data-status-no-data="{{ t "chart.no-data" }}"
+    >
+      <div class="chart-panel__mount" data-chart-mount></div>
+      <p class="chart-panel__status" data-chart-status>{{ t "chart.fallback" }}</p>
+      <button class="button button--secondary chart-panel__consent" type="button" data-consent-open hidden>{{ t "chart.allow" }}</button>
+    </article>
+    <article
+      class="chart-panel__panel"
+      id="assets-panel-gold"
+      role="tabpanel"
+      aria-labelledby="assets-tab-gold"
+      data-chart-panel
+      data-chart-key="assets-gold"
+      data-status-opt-in="{{ t "chart.opt-in" }}"
+      data-status-loading="{{ t "chart.loading" }}"
+      data-status-error="{{ t "chart.error" }}"
+      data-status-no-data="{{ t "chart.no-data" }}"
+    >
+      <div class="chart-panel__mount" data-chart-mount></div>
+      <p class="chart-panel__status" data-chart-status>{{ t "chart.fallback" }}</p>
+      <button class="button button--secondary chart-panel__consent" type="button" data-consent-open hidden>{{ t "chart.allow" }}</button>
+    </article>
+    <article
+      class="chart-panel__panel"
+      id="assets-panel-bitcoin"
+      role="tabpanel"
+      aria-labelledby="assets-tab-bitcoin"
+      data-chart-panel
+      data-chart-key="assets-bitcoin"
+      data-status-opt-in="{{ t "chart.opt-in" }}"
+      data-status-loading="{{ t "chart.loading" }}"
+      data-status-error="{{ t "chart.error" }}"
+      data-status-no-data="{{ t "chart.no-data" }}"
+    >
+      <div class="chart-panel__mount" data-chart-mount></div>
+      <p class="chart-panel__status" data-chart-status>{{ t "chart.fallback" }}</p>
+      <button class="button button--secondary chart-panel__consent" type="button" data-consent-open hidden>{{ t "chart.allow" }}</button>
+    </article>
+  </div>
+  <a class="chart-panel__provider" href="https://www.tradingview.com/" rel="noopener noreferrer">{{ t "chart.provider" }}</a>
+</section>
+{{- end }}
+
+{{ define "currencies-chart" -}}
+<section class="chart-panel" data-tabs data-chart-group data-chart-locale="{{ .Locale }}" aria-labelledby="currencies-chart-title">
+  <header class="chart-panel__header">
+    <h3 class="chart-panel__title" id="currencies-chart-title">{{ t "choose-calculation-unit" }}</h3>
+    <div class="chart-panel__tabs" role="tablist" aria-label="{{ t "chart.tablist-label" }}">
+      <a class="chart-panel__tab" id="currencies-tab-dollar" href="#currencies-panel-dollar" role="tab" aria-selected="true" aria-controls="currencies-panel-dollar">{{ t "chart.dollar" }}</a>
+      <a class="chart-panel__tab" id="currencies-tab-gold" href="#currencies-panel-gold" role="tab" aria-selected="false" aria-controls="currencies-panel-gold" tabindex="-1">{{ t "chart.gold" }}</a>
+      <a class="chart-panel__tab" id="currencies-tab-bitcoin" href="#currencies-panel-bitcoin" role="tab" aria-selected="false" aria-controls="currencies-panel-bitcoin" tabindex="-1">{{ t "chart.bitcoin" }}</a>
+    </div>
+  </header>
+  <div class="chart-panel__body">
+    <article
+      class="chart-panel__panel"
+      id="currencies-panel-dollar"
+      role="tabpanel"
+      aria-labelledby="currencies-tab-dollar"
+      data-chart-panel
+      data-chart-key="currencies-dollar"
+      data-status-opt-in="{{ t "chart.opt-in" }}"
+      data-status-loading="{{ t "chart.loading" }}"
+      data-status-error="{{ t "chart.error" }}"
+      data-status-no-data="{{ t "chart.no-data" }}"
+    >
+      <div class="chart-panel__mount" data-chart-mount></div>
+      <p class="chart-panel__status" data-chart-status>{{ t "chart.fallback" }}</p>
+      <button class="button button--secondary chart-panel__consent" type="button" data-consent-open hidden>{{ t "chart.allow" }}</button>
+    </article>
+    <article
+      class="chart-panel__panel"
+      id="currencies-panel-gold"
+      role="tabpanel"
+      aria-labelledby="currencies-tab-gold"
+      data-chart-panel
+      data-chart-key="currencies-gold"
+      data-status-opt-in="{{ t "chart.opt-in" }}"
+      data-status-loading="{{ t "chart.loading" }}"
+      data-status-error="{{ t "chart.error" }}"
+      data-status-no-data="{{ t "chart.no-data" }}"
+    >
+      <div class="chart-panel__mount" data-chart-mount></div>
+      <p class="chart-panel__status" data-chart-status>{{ t "chart.fallback" }}</p>
+      <button class="button button--secondary chart-panel__consent" type="button" data-consent-open hidden>{{ t "chart.allow" }}</button>
+    </article>
+    <article
+      class="chart-panel__panel"
+      id="currencies-panel-bitcoin"
+      role="tabpanel"
+      aria-labelledby="currencies-tab-bitcoin"
+      data-chart-panel
+      data-chart-key="currencies-bitcoin"
+      data-status-opt-in="{{ t "chart.opt-in" }}"
+      data-status-loading="{{ t "chart.loading" }}"
+      data-status-error="{{ t "chart.error" }}"
+      data-status-no-data="{{ t "chart.no-data" }}"
+    >
+      <div class="chart-panel__mount" data-chart-mount></div>
+      <p class="chart-panel__status" data-chart-status>{{ t "chart.fallback" }}</p>
+      <button class="button button--secondary chart-panel__consent" type="button" data-consent-open hidden>{{ t "chart.allow" }}</button>
+    </article>
+  </div>
+  <a class="chart-panel__provider" href="https://www.tradingview.com/" rel="noopener noreferrer">{{ t "chart.provider" }}</a>
+</section>
+{{- end }}
+
+{{ define "candidates-chart" -}}
+<section class="chart-panel" data-tabs data-chart-group data-chart-locale="{{ .Locale }}" aria-labelledby="candidates-chart-title">
+  <header class="chart-panel__header">
+    <h3 class="chart-panel__title" id="candidates-chart-title">{{ t "candidates.chart-headline" }}</h3>
+    <div class="chart-panel__tabs" role="tablist" aria-label="{{ t "chart.tablist-label" }}">
+      <a class="chart-panel__tab" id="candidates-tab-linear" href="#candidates-panel-linear" role="tab" aria-selected="true" aria-controls="candidates-panel-linear">{{ t "chart.linear" }}</a>
+      <a class="chart-panel__tab" id="candidates-tab-log" href="#candidates-panel-log" role="tab" aria-selected="false" aria-controls="candidates-panel-log" tabindex="-1">{{ t "chart.log" }}</a>
+    </div>
+  </header>
+  <div class="chart-panel__body">
+    <article
+      class="chart-panel__panel"
+      id="candidates-panel-linear"
+      role="tabpanel"
+      aria-labelledby="candidates-tab-linear"
+      data-chart-panel
+      data-chart-key="candidates-linear"
+      data-status-opt-in="{{ t "chart.opt-in" }}"
+      data-status-loading="{{ t "chart.loading" }}"
+      data-status-error="{{ t "chart.error" }}"
+      data-status-no-data="{{ t "chart.no-data" }}"
+    >
+      <div class="chart-panel__mount" data-chart-mount></div>
+      <p class="chart-panel__status" data-chart-status>{{ t "chart.fallback" }}</p>
+      <button class="button button--secondary chart-panel__consent" type="button" data-consent-open hidden>{{ t "chart.allow" }}</button>
+    </article>
+    <article
+      class="chart-panel__panel"
+      id="candidates-panel-log"
+      role="tabpanel"
+      aria-labelledby="candidates-tab-log"
+      data-chart-panel
+      data-chart-key="candidates-log"
+      data-status-opt-in="{{ t "chart.opt-in" }}"
+      data-status-loading="{{ t "chart.loading" }}"
+      data-status-error="{{ t "chart.error" }}"
+      data-status-no-data="{{ t "chart.no-data" }}"
+    >
+      <div class="chart-panel__mount" data-chart-mount></div>
+      <p class="chart-panel__status" data-chart-status>{{ t "chart.fallback" }}</p>
+      <button class="button button--secondary chart-panel__consent" type="button" data-consent-open hidden>{{ t "chart.allow" }}</button>
+    </article>
+  </div>
+  <a class="chart-panel__provider" href="https://www.tradingview.com/" rel="noopener noreferrer">{{ t "chart.provider" }}</a>
+</section>
+{{- end }}

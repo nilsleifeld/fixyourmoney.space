@@ -1,0 +1,356 @@
+/* Contextual IntersectionObserver fallback for browsers without CSS view timelines. */
+.scroll-reveal {
+  transition: opacity var(--duration-slow) var(--easing-reveal), translate var(--duration-slow) var(--easing-reveal), scale var(--duration-slow) var(--easing-reveal);
+}
+
+.scroll-reveal--pending {
+  opacity: 0;
+  translate: 0 var(--motion-distance-medium);
+}
+
+.scroll-reveal--from-left {
+  translate: calc(var(--motion-distance-large) * -1) 0;
+}
+
+.scroll-reveal--from-right {
+  translate: var(--motion-distance-large) 0;
+}
+
+.scroll-reveal--scale {
+  scale: var(--motion-reveal-scale);
+}
+
+.scroll-reveal--visible {
+  opacity: 1;
+  translate: 0 0;
+  scale: 1;
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .site-shell::before {
+      position: fixed;
+      inset-block-start: 0;
+      inset-inline: 0;
+      z-index: var(--layer-progress);
+      height: calc(var(--spacing) * 1);
+      background: var(--color-primary);
+      content: "";
+      transform: scaleX(0);
+      transform-origin: center;
+      animation: scroll-progress linear both;
+      animation-timeline: scroll(root block);
+    }
+
+    .content-section__lead {
+      animation: scroll-lead-enter linear both;
+      animation-timeline: view(block);
+      animation-range: entry 0% cover 32%;
+    }
+
+    .section-heading__eyebrow {
+      animation: scroll-eyebrow-enter linear both;
+      animation-timeline: view(block);
+      animation-range: entry 0% cover 22%;
+    }
+
+    .section-heading__title,
+    .legal-page__title,
+    .legal-page__section-title {
+      animation: scroll-title-enter linear both;
+      animation-timeline: view(block);
+      animation-range: entry 0% cover 38%;
+    }
+
+    .chart-panel {
+      transform-origin: center bottom;
+      animation: scroll-chart-enter linear both;
+      animation-timeline: view(block);
+      animation-range: entry 0% cover 38%;
+    }
+
+    .content-section__text,
+    .content-section__subtitle {
+      animation: scroll-copy-enter linear both;
+      animation-timeline: view(block);
+      animation-range: entry 5% cover 30%;
+    }
+
+    .money-card--tilt-left,
+    .point-list__item--from-left,
+    .comparison--from-left,
+    .impact-card--from-left {
+      animation: scroll-card-left linear both;
+      animation-timeline: view(block);
+      animation-range: entry 0% cover 34%;
+    }
+
+    .money-card--tilt-right,
+    .point-list__item--from-right,
+    .comparison--from-right,
+    .impact-card--from-right {
+      animation: scroll-card-right linear both;
+      animation-timeline: view(block);
+      animation-range: entry 0% cover 34%;
+    }
+
+    .impact-card--from-bottom {
+      animation: scroll-card-bottom linear both;
+      animation-timeline: view(block);
+      animation-range: entry 0% cover 40%;
+    }
+
+    .money-card__icon,
+    .impact-card__icon {
+      transform-origin: center;
+      animation: scroll-icon-pop linear both;
+      animation-timeline: view(block);
+      animation-range: entry 5% cover 38%;
+    }
+
+    .comparison__versus {
+      animation: scroll-versus-pop linear both;
+      animation-timeline: view(block);
+      animation-range: entry 0% cover 42%;
+    }
+
+    .closing-message__title {
+      transform-origin: center;
+      animation: scroll-closing-enter linear both;
+      animation-timeline: view(block);
+      animation-range: entry 0% cover 55%;
+    }
+
+    .hero::before {
+      animation: bitcoin-drift linear both;
+      animation-timeline: view(block);
+      animation-range: exit 0% exit 100%;
+    }
+
+    .hero__copy {
+      animation: hero-copy-exit linear both;
+      animation-timeline: view(block);
+      animation-range: exit 0% exit 75%;
+    }
+
+    .hero__chart-mount {
+      transform-origin: center bottom;
+      animation: hero-chart-exit linear both;
+      animation-timeline: view(block);
+      animation-range: exit 0% exit 100%;
+    }
+  }
+}
+
+@keyframes scroll-progress {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes scroll-lead-enter {
+  from {
+    opacity: 0;
+    translate: calc(var(--motion-distance-medium) * -1) 0;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes scroll-eyebrow-enter {
+  from {
+    opacity: 0;
+    translate: calc(var(--motion-distance-medium) * -1) 0;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes scroll-title-enter {
+  from {
+    opacity: 0;
+    clip-path: inset(0 0 100% 0);
+    translate: 0 var(--motion-distance-short);
+  }
+
+  to {
+    opacity: 1;
+    clip-path: inset(0);
+    translate: 0 0;
+  }
+}
+
+@keyframes scroll-chart-enter {
+  from {
+    opacity: 0;
+    rotate: var(--angle-turn);
+    scale: var(--motion-reveal-scale);
+    translate: 0 var(--motion-distance-medium);
+  }
+
+  to {
+    opacity: 1;
+    rotate: 0deg;
+    scale: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes scroll-copy-enter {
+  from {
+    opacity: 0;
+    translate: 0 var(--motion-distance-medium);
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes scroll-card-left {
+  from {
+    opacity: 0;
+    rotate: calc(var(--angle-turn) * -1);
+    scale: var(--motion-card-scale);
+    translate: calc(var(--motion-distance-large) * -1) 0;
+  }
+
+  to {
+    opacity: 1;
+    rotate: 0deg;
+    scale: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes scroll-card-right {
+  from {
+    opacity: 0;
+    rotate: var(--angle-turn);
+    scale: var(--motion-card-scale);
+    translate: var(--motion-distance-large) 0;
+  }
+
+  to {
+    opacity: 1;
+    rotate: 0deg;
+    scale: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes scroll-card-bottom {
+  from {
+    opacity: 0;
+    scale: var(--motion-reveal-scale);
+    translate: 0 var(--motion-distance-large);
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes scroll-icon-pop {
+  0% {
+    opacity: 0;
+    rotate: calc(var(--angle-turn) * -3);
+    scale: var(--motion-icon-scale);
+  }
+
+  70% {
+    opacity: 1;
+    rotate: var(--angle-turn);
+    scale: var(--motion-overshoot-scale);
+  }
+
+  100% {
+    opacity: 1;
+    rotate: 0deg;
+    scale: 1;
+  }
+}
+
+@keyframes scroll-versus-pop {
+  0% {
+    opacity: 0;
+    rotate: calc(var(--angle-turn) * -2);
+    scale: var(--motion-icon-scale);
+  }
+
+  65% {
+    opacity: 1;
+    rotate: var(--angle-turn);
+    scale: var(--motion-emphasis-scale);
+  }
+
+  100% {
+    opacity: 1;
+    rotate: 0deg;
+    scale: 1;
+  }
+}
+
+@keyframes scroll-closing-enter {
+  0% {
+    opacity: 0;
+    scale: var(--motion-closing-scale);
+    translate: 0 var(--motion-distance-large);
+  }
+
+  68% {
+    opacity: 1;
+    scale: var(--motion-overshoot-scale);
+    translate: 0 0;
+  }
+
+  100% {
+    opacity: 1;
+    scale: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes bitcoin-drift {
+  to {
+    rotate: var(--angle-half-turn);
+    translate: 0 var(--motion-distance-large);
+  }
+}
+
+@keyframes hero-copy-exit {
+  to {
+    opacity: var(--hero-copy-exit-opacity);
+    translate: 0 calc(var(--motion-distance-medium) * -1);
+  }
+}
+
+@keyframes hero-chart-exit {
+  to {
+    opacity: var(--hero-chart-exit-opacity);
+    scale: var(--hero-chart-exit-scale);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal,
+  .scroll-reveal--pending,
+  .scroll-reveal--from-left,
+  .scroll-reveal--from-right,
+  .scroll-reveal--scale,
+  .scroll-reveal--visible {
+    opacity: 1;
+    scale: 1;
+    translate: none;
+    transition: none;
+  }
+}

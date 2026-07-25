@@ -1,0 +1,43 @@
+.money-card-list {
+  display: grid;
+  gap: calc(var(--spacing) * 6);
+  margin-block: calc(var(--spacing) * 12);
+}
+
+.money-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+  padding: var(--card-padding);
+  border: var(--section-border);
+  border-radius: var(--radius-small);
+  background: var(--card-background);
+  box-shadow: var(--card-shadow);
+}
+
+.money-card__icon {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: var(--font-size-2xl);
+  line-height: 1;
+}
+
+.money-card__title {
+  grid-column: 1;
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-heading);
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+.money-card__text {
+  grid-column: 1 / -1;
+  margin-block-start: calc(var(--spacing) * 3);
+}
+
+@media (min-width: 48rem) {
+  .money-card-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
