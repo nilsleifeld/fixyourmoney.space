@@ -10,14 +10,15 @@ const stockAssets = [
   ['S&P 500', 'SPY'], ['SAP', 'NYSE:SAP'], ['Tesla', 'TSLA'],
 ];
 
+const dollarUnit = 'FX_IDC:USDEUR/USDEUR';
+
 const currencyAssets = [
-  // USD is TradingView's unit numerator (same as hero `USD/BTCUSD`), not an FX self-ratio.
-  ['Dollar', 'USD'], ['Euro', 'FX:EURUSD'], ['Pound', 'FX:GBPUSD'], ['Yen', 'FX_IDC:JPYUSD'],
+  ['Dollar', dollarUnit], ['Euro', 'FX:EURUSD'], ['Pound', 'FX:GBPUSD'], ['Yen', 'FX_IDC:JPYUSD'],
   ['Ruble', 'FX_IDC:RUBUSD'], ['Yuan', 'FX_IDC:CNYUSD'], ['Franc', 'FX_IDC:CHFUSD'], ['Lira', 'FX_IDC:TRYUSD'],
 ];
 
 const candidateAssets = [
-  ['Dollar in Gold', 'USD/XAUUSD|ALL'], ['Dollar in Bitcoin', 'USD/BTCUSD|ALL'],
+  ['Dollar in Gold', `${dollarUnit}/XAUUSD|ALL`], ['Dollar in Bitcoin', `${dollarUnit}/BTCUSD|ALL`],
   ['Gold in Dollar', 'XAUUSD|ALL'], ['Gold in Bitcoin', 'XAUUSD/BTCUSD|ALL'],
   ['Bitcoin in Dollar', 'BTCUSD|ALL'], ['Bitcoin in Gold', 'BTCUSD/XAUUSD|ALL'],
 ];
@@ -31,8 +32,8 @@ const candidateAssets = [
 function inUnit(assets, unit) {
   const suffixes = {dollar: '|ALL', gold: '/XAUUSD|ALL', bitcoin: '/BTCUSD|ALL'};
   return assets.map(([name, symbol]) => {
-    // Bare USD is not a plottable series; USD/USD is a flat unit ratio at 1.
-    if (symbol === 'USD' && unit === 'dollar') {
+    // Special case: TradingView can introduce fluctuations via the regular calculation, but Dollar in Dollar must be a flat line at 1.
+    if (symbol === dollarUnit && unit === 'dollar') {
       return [name, 'USD/USD|ALL'];
     }
     return [name, `${symbol}${suffixes[unit]}`];
